@@ -9,9 +9,21 @@ categories:
 ---
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/25089264?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25089264/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+```{r}
+#| echo: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_3b.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 purchasing power parity dollars). Between 2024 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. The black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030. 
+Note: Poverty rates are shown relative to 2019 levels for the \$8.3 person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects. High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the \$8.3 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the \$3.0 poverty line were less than 0.05 percentage points. Income group is kept fixed using the fiscal year 2024 classifications.
 
 </p>

@@ -14,9 +14,21 @@ categories:
 ```
 <noscript><img src="https://public.flourish.studio/visualisation/25383474/thumbnail" alt="chart visualization" width="100%"/></noscript>
 :::
+```{r}
+#| echo: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_4b.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: The estimates after 2024 are nowcasts.
+Note: Regional contribution (percent) of the Global Prosperity Gap in 2025, compared with the regional population shares. The label values may not add to 100 percent due to rounding.
 
 </p>
