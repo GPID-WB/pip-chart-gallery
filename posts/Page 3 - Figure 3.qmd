@@ -9,6 +9,18 @@ categories:
 ---
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/25516134?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25516134/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+```{r}
+#| echo: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_3.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 

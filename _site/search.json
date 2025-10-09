@@ -11,28 +11,28 @@
     "href": "posts/Page 8 - Figure 8.html",
     "title": "8- Global Prosperity Gap trends",
     "section": "",
-    "text": "Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/. Note: Poverty rates are reported for the $3.00, $4.20, and \\(8.30 per person per day poverty lines (expressed in 2021 PPP\\)). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook."
+    "text": "Download data as csv\n\n\n\n\nNote: The estimates after 2024 are nowcasts."
   },
   {
     "objectID": "posts/Page 6 - Figure 6.html",
     "href": "posts/Page 6 - Figure 6.html",
     "title": "6 - Poverty at $3.0 relative to 2019 levels",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates are shown relative to 2019 levels for the $3.0 per person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects. High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the $8.3 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the $3.0 poverty line were less than 0.05 percentage points. Income group is kept fixed using the fiscal year 2024 classifications."
   },
   {
     "objectID": "posts/Page 4 - Figure 4.html",
     "href": "posts/Page 4 - Figure 4.html",
     "title": "4 - Poverty projections at $3.0 until 2050 under different scenarios",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates are reported for the $3.00 per person per day poverty line (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
   },
   {
     "objectID": "posts/Page 2 - Figure 2.html",
     "href": "posts/Page 2 - Figure 2.html",
     "title": "2 - Population living on poverty",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
   },
   {
     "objectID": "posts/Page 16 - Figure 16.html",
@@ -60,7 +60,7 @@
     "href": "posts/Page 10 - Figure 10.html",
     "title": "10 - Contributions of growht and Inequality to Global Prosperity Gap",
     "section": "",
-    "text": "Note: Regional contribution (percent) of the Global Prosperity Gap in 2025, compared with the regional population shares. The label values may not add to 100 percent due to rounding."
+    "text": "Download data as csv\n\n\n\n\nNote: A decrease in the Prosperity Gap is an improvement in welfare. Growth is calculated as the log difference. Change in the Prosperity Gap is the sum of the (negative) growth in the mean income and the decline in total inequality. Positive growth in the mean decreases (improves) the Prosperity Gap; thus, in the figure, the contribution of the mean growth is shown as the negative of mean growth. That is, for all the periods in the graph, there was positive growth in the global mean, which is displayed as a negative contribution. Inequality is measured using the inequality measure related to the Prosperity Gap. Change in total inequality is the sum of changes in between country and within-country inequality."
   },
   {
     "objectID": "about.html",
@@ -74,7 +74,7 @@
     "href": "posts/Page 1 - Figure 1.html",
     "title": "1 - Global Poverty Trends",
     "section": "",
-    "text": "Extreme poverty reduction has resumed but at a slower pace than before 2020.\n\n\n\n\n\n\n\nNote: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 3% and indicates the World Bank’s target of ending extreme by 2030."
+    "text": "Extreme poverty reduction has resumed but at a slower pace than before 2020.\n\n\n\n\n\n\n\n\n\n Download data as csv\n\n\n\n\nNote: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 3% and indicates the World Bank’s target of ending extreme by 2030."
   },
   {
     "objectID": "posts/Page 11 - Figure 11.html",
@@ -109,27 +109,27 @@
     "href": "posts/Page 3 - Figure 3.html",
     "title": "3 - Poverty rates across world regions",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030."
   },
   {
     "objectID": "posts/Page 5 - Figure 5.html",
     "href": "posts/Page 5 - Figure 5.html",
     "title": "5 - Poverty projections at $8.30 until 2050 under different scenarios",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates is reported for the $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank’s target of ending extreme."
   },
   {
     "objectID": "posts/Page 7 - Figure 7.html",
     "href": "posts/Page 7 - Figure 7.html",
     "title": "7 - Poverty at $8.3 relative to 2019 levels",
     "section": "",
-    "text": "Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 purchasing power parity dollars). Between 2024 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. The black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030."
+    "text": "Download data as csv\n\n\n\n\nNote: Poverty rates are shown relative to 2019 levels for the $8.3 person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects. High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the $8.3 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the $3.0 poverty line were less than 0.05 percentage points. Income group is kept fixed using the fiscal year 2024 classifications."
   },
   {
     "objectID": "posts/Page 9 - Figure 9.html",
     "href": "posts/Page 9 - Figure 9.html",
     "title": "9 - Regional contribution % of the Global Prosperity Gap in 2025",
     "section": "",
-    "text": "Note: The estimates after 2024 are nowcasts."
+    "text": "Download data as csv\n\n\n\n\nNote: Regional contribution (percent) of the Global Prosperity Gap in 2025, compared with the regional population shares. The label values may not add to 100 percent due to rounding."
   }
 ]

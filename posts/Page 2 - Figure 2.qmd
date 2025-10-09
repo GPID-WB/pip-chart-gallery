@@ -14,6 +14,18 @@ categories:
 ```
 <noscript><img src="https://public.flourish.studio/visualisation/24994782/thumbnail" alt="chart visualization" width="100%"/></noscript>
 :::
+```{r}
+#| echo: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_1b.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
