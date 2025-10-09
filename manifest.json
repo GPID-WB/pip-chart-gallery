@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.4.2",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "index.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.7.33",
+    "engines": ["markdown"]
+  },
+  "packages": null,
+  "files": {
+    "_quarto.yml": {
+      "checksum": "e04b54521e3c4f2d20ab2742e0d56645"
+    },
+    "_site/about.html": {
+      "checksum": "819b8a1eee05ca2fe25414e44805e25a"
+    },
+    "_site/images/Fig1.png": {
+      "checksum": "f47de1d13b580cdc3c735cdea1cf5cef"
+    },
+    "_site/images/Fig10.png": {
+      "checksum": "be6743b0ee8b0c27d88a0b7b7baa35d5"
+    },
+    "_site/images/Fig12.png": {
+      "checksum": "77343c503dbd858d68bd8bd8525f86c0"
+    },
+    "_site/images/Fig13.png": {
+      "checksum": "4184a7646b821da82b5d2a5810a592dd"
+    },
+    "_site/images/Fig14.png": {
+      "checksum": "ad4951742325e3d903a6110df7025b0c"
+    },
+    "_site/images/Fig15.png": {
+      "checksum": "569000403121083db0c912472fa311df"
+    },
+    "_site/images/Fig16.png": {
+      "checksum": "fd896ae48a0d8fcc2f1e200d1aea7de2"
+    },
+    "_site/images/Fig17.png": {
+      "checksum": "c8055b13044b01fd7dee75f934df4154"
+    },
+    "_site/images/Fig2.png": {
+      "checksum": "b38b11e68f0c6e8e218d17ac3aa37e9e"
+    },
+    "_site/images/Fig3.png": {
+      "checksum": "4156376634455cf5a808592ac8d077ef"
+    },
+    "_site/images/Fig4.png": {
+      "checksum": "f4362422fb8f4b8685980844711a7574"
+    },
+    "_site/images/Fig5.png": {
+      "checksum": "e85ac66b3fb188c8e311349a5a2fd75a"
+    },
+    "_site/images/Fig6.png": {
+      "checksum": "cdf3e0b35504ba5e73318b1ae3e3463b"
+    },
+    "_site/images/Fig7.png": {
+      "checksum": "d60f738a787bd531ccd70be93cea6ac9"
+    },
+    "_site/images/Fig8.png": {
+      "checksum": "0d0cf00c1c3efb05c5571e120684a007"
+    },
+    "_site/images/Fig9.png": {
+      "checksum": "687de530ab39708e0c90d8f155cb8676"
+    },
+    "_site/images/Map1.png": {
+      "checksum": "93d151dcd6dc1d246e09c9a26e481398"
+    },
+    "_site/index.html": {
+      "checksum": "b7c5eda53b52ec6b295a89c1a39e19b2"
+    },
+    "_site/listings.json": {
+      "checksum": "28c262e1d71429dce60c10f6026208f1"
+    },
+    "_site/posts/Page 1 - Figure 1.html": {
+      "checksum": "97b359c985c68d20dbc316b918e32c9e"
+    },
+    "_site/posts/Page 10 - Figure 10.html": {
+      "checksum": "575ac0f215b242d5c423222e610f84d8"
+    },
+    "_site/posts/Page 11 - Figure 11.html": {
+      "checksum": "12373bda0e06401153d8cc80a472f493"
+    },
+    "_site/posts/Page 12 - Figure 12.html": {
+      "checksum": "d625c2e237d8be6cdb61899b62d1a0ff"
+    },
+    "_site/posts/Page 13 - Figure 13.html": {
+      "checksum": "1f98b7c2c1467609d64a47b6d152b072"
+    },
+    "_site/posts/Page 14 - Figure 14.html": {
+      "checksum": "bdd87c11c9e9218e52dab97d82e441be"
+    },
+    "_site/posts/Page 15 - Figure 15.html": {
+      "checksum": "e297750d5aed530789443181be99c281"
+    },
+    "_site/posts/Page 16 - Figure 16.html": {
+      "checksum": "301e494eed84a533ce71f93e0e4028e5"
+    },
+    "_site/posts/Page 17 - Figure 17.html": {
+      "checksum": "ea68b09af29a0c2b226bcefc03ff5803"
+    },
+    "_site/posts/Page 2 - Figure 2.html": {
+      "checksum": "63a5c67dd3da75ab8d29c929995964fa"
+    },
+    "_site/posts/Page 3 - Figure 3.html": {
+      "checksum": "9af24974f849ca71cc0e7e74abe909a6"
+    },
+    "_site/posts/Page 4 - Figure 4.html": {
+      "checksum": "81b1debbae0eac90b79b56401e81f98d"
+    },
+    "_site/posts/Page 5 - Figure 5.html": {
+      "checksum": "7a6e89ed9e8fad627ac55b31f42fd69b"
+    },
+    "_site/posts/Page 6 - Figure 6.html": {
+      "checksum": "f7b30f467f4014208f7d1e2307124c53"
+    },
+    "_site/posts/Page 7 - Figure 7.html": {
+      "checksum": "c72bccd5cac5f86620dfb6fec106be4a"
+    },
+    "_site/posts/Page 8 - Figure 8.html": {
+      "checksum": "d8241357a8fa85ccfca2d5896884efb4"
+    },
+    "_site/posts/Page 9 - Figure 9.html": {
+      "checksum": "705bdec447c5f5b9cc76ef412183daf8"
+    },
+    "_site/search.json": {
+      "checksum": "7f917513ed7963ffe007aa60bb2431a4"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "08f8c9cd5208dccdb9ddd8c9a95e3f92"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "dfd2a6bd06f9dd7437ee67673cd9c447"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.css": {
+      "checksum": "b8b073f29d42b7fbf27099199d35f8e3"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.js": {
+      "checksum": "2591536dc6f1d305043be991897839ab"
+    },
+    "_site/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "722242f7b6e0fa3b8d25070388a5c826"
+    },
+    "_site/site_libs/quarto-html/anchor.min.js": {
+      "checksum": "c65565ace54d4fff6ba57645ddacf6ee"
+    },
+    "_site/site_libs/quarto-html/popper.min.js": {
+      "checksum": "315a5b6efbd3c20fba4cd36388ec4342"
+    },
+    "_site/site_libs/quarto-html/quarto-syntax-highlighting.css": {
+      "checksum": "38eeced77734a789514900e1cb87bfb1"
+    },
+    "_site/site_libs/quarto-html/quarto.js": {
+      "checksum": "1dd4b69cec001d4de45941bb9c155a93"
+    },
+    "_site/site_libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "_site/site_libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "c767a9ffc932cac8690dd2e0321a121d"
+    },
+    "_site/site_libs/quarto-listing/list.min.js": {
+      "checksum": "13101ab668519e0c5182ccac8f44cc2d"
+    },
+    "_site/site_libs/quarto-listing/quarto-listing.js": {
+      "checksum": "e943ecb255b4da87a9c25a7041bd817e"
+    },
+    "_site/site_libs/quarto-nav/headroom.min.js": {
+      "checksum": "ed4117a78fe4e7dad50c6b5c37a55c7d"
+    },
+    "_site/site_libs/quarto-nav/quarto-nav.js": {
+      "checksum": "5f055499ede795b311e73f6d827af450"
+    },
+    "_site/site_libs/quarto-search/autocomplete.umd.js": {
+      "checksum": "37fe7a08f6cf44b33853788dd59060f4"
+    },
+    "_site/site_libs/quarto-search/fuse.min.js": {
+      "checksum": "5f8e6fb5de2ff90ffb8678b5236ec4ad"
+    },
+    "_site/site_libs/quarto-search/quarto-search.js": {
+      "checksum": "cb4f7f1e5884c1f9bf848ee905e32800"
+    },
+    "_site/styles.css": {
+      "checksum": "87abfd2131bb25c0f1746da5ba271319"
+    },
+    "about.qmd": {
+      "checksum": "997997edee2a06edb9c6930ce5bf5306"
+    },
+    "images/desktop.ini": {
+      "checksum": "c58b42659b6e9f00fb1e6789b8e6e7c5"
+    },
+    "images/Fig1.png": {
+      "checksum": "f47de1d13b580cdc3c735cdea1cf5cef"
+    },
+    "images/Fig10.png": {
+      "checksum": "be6743b0ee8b0c27d88a0b7b7baa35d5"
+    },
+    "images/Fig12.png": {
+      "checksum": "77343c503dbd858d68bd8bd8525f86c0"
+    },
+    "images/Fig13.png": {
+      "checksum": "4184a7646b821da82b5d2a5810a592dd"
+    },
+    "images/Fig14.png": {
+      "checksum": "ad4951742325e3d903a6110df7025b0c"
+    },
+    "images/Fig15.png": {
+      "checksum": "569000403121083db0c912472fa311df"
+    },
+    "images/Fig16.png": {
+      "checksum": "fd896ae48a0d8fcc2f1e200d1aea7de2"
+    },
+    "images/Fig17.png": {
+      "checksum": "c8055b13044b01fd7dee75f934df4154"
+    },
+    "images/Fig2.png": {
+      "checksum": "b38b11e68f0c6e8e218d17ac3aa37e9e"
+    },
+    "images/Fig3.png": {
+      "checksum": "4156376634455cf5a808592ac8d077ef"
+    },
+    "images/Fig4.png": {
+      "checksum": "f4362422fb8f4b8685980844711a7574"
+    },
+    "images/Fig5.png": {
+      "checksum": "e85ac66b3fb188c8e311349a5a2fd75a"
+    },
+    "images/Fig6.png": {
+      "checksum": "cdf3e0b35504ba5e73318b1ae3e3463b"
+    },
+    "images/Fig7.png": {
+      "checksum": "d60f738a787bd531ccd70be93cea6ac9"
+    },
+    "images/Fig8.png": {
+      "checksum": "0d0cf00c1c3efb05c5571e120684a007"
+    },
+    "images/Fig9.png": {
+      "checksum": "687de530ab39708e0c90d8f155cb8676"
+    },
+    "images/Map1.png": {
+      "checksum": "93d151dcd6dc1d246e09c9a26e481398"
+    },
+    "index.qmd": {
+      "checksum": "ae7d64686ba9dd42057c6aec9d8930f0"
+    },
+    "index.quarto_ipynb": {
+      "checksum": "8a7397297bb37610ef2d30da05e284b6"
+    },
+    "posts/desktop.ini": {
+      "checksum": "787f808fec2e1f8882b9c70aa039fbc9"
+    },
+    "posts/Page 1 - Figure 1.qmd": {
+      "checksum": "103a949e2224f2fd5c94644842536675"
+    },
+    "posts/Page 10 - Figure 10.qmd": {
+      "checksum": "7640e0eb8d871fa10349c7c3733ecd03"
+    },
+    "posts/Page 11 - Figure 11.qmd": {
+      "checksum": "c441362b9256ec0ccd50f8a7040bc9b3"
+    },
+    "posts/Page 12 - Figure 12.qmd": {
+      "checksum": "b93825f85e726db048b84bb9a564f7a9"
+    },
+    "posts/Page 13 - Figure 13.qmd": {
+      "checksum": "1c2953f11b42695c6efa4e596159b8f8"
+    },
+    "posts/Page 14 - Figure 14.qmd": {
+      "checksum": "a9074d9cefdf30613da595a58b709db7"
+    },
+    "posts/Page 15 - Figure 15.qmd": {
+      "checksum": "bcf6b531c0b273bb5e813f3359cebe11"
+    },
+    "posts/Page 16 - Figure 16.qmd": {
+      "checksum": "2bcbc410be491cd3bf0e17bc22a84879"
+    },
+    "posts/Page 17 - Figure 17.qmd": {
+      "checksum": "40185f8aab4dd5daa6b22f3c07cdac70"
+    },
+    "posts/Page 2 - Figure 2.qmd": {
+      "checksum": "ee1180c8dc6bb3d1e013a8a46e902027"
+    },
+    "posts/Page 3 - Figure 3.qmd": {
+      "checksum": "b6cea3454eb0a89065aa55d87c6aa8e7"
+    },
+    "posts/Page 4 - Figure 4.qmd": {
+      "checksum": "b16c85d1c2940e0919f203ae3b686ff8"
+    },
+    "posts/Page 5 - Figure 5.qmd": {
+      "checksum": "99852dd6352015105e853ed85659eebc"
+    },
+    "posts/Page 6 - Figure 6.qmd": {
+      "checksum": "b45ff055e9ac039a729b9126208e2cbd"
+    },
+    "posts/Page 7 - Figure 7.qmd": {
+      "checksum": "0d063468d9bc046536db64843236d417"
+    },
+    "posts/Page 8 - Figure 8.qmd": {
+      "checksum": "0373e2a90d14894e5eeb5e9c1ccadac7"
+    },
+    "posts/Page 9 - Figure 9.qmd": {
+      "checksum": "f24f355a2552f3c8a574caf2b65e588f"
+    },
+    "styles.css": {
+      "checksum": "87abfd2131bb25c0f1746da5ba271319"
+    }
+  },
+  "users": null
+}
