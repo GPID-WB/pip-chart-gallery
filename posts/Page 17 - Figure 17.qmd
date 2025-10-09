@@ -1,11 +1,11 @@
 ---
-title: "17 - Donut"
-description: "..."
+title: "17 - Millions of poor"
+description: "Sub-Saharan Africa concentrates the largerst number of poor globally"
 order: 17
 format: html
 image: /images/Fig17.png
 categories:
-  - Growth
+  - Poverty
 ---
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/25517153?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25517153/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
