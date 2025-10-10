@@ -19,6 +19,7 @@ categories:
 
 ```{r}
 #| echo: false
+#| warning: false
 library("downloadthis")
 download_link( 
   link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_2b.csv", 
