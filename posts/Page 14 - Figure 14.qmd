@@ -11,6 +11,7 @@ categories:
 <div class="flourish-embed flourish-chart" data-src="visualisation/25418005?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25418005/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 ```{r}
 #| echo: false
+#| warning: false
 library("downloadthis")
 download_link( 
   link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_7a.csv", 
