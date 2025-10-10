@@ -1,5 +1,5 @@
 ---
-title: "17 - Millions of poor"
+title: "17 - Millions of poor by region"
 description: "Sub-Saharan Africa concentrates the largerst number of poor globally"
 order: 17
 format: html
@@ -8,7 +8,18 @@ categories:
   - Poverty
 ---
 
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/25517153?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25517153/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/25564496?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25564496/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
 
-Source: World Bank, Poverty and Inequality Platform (version September 2025), https://pip.worldbank.org/.
-Note: This 
+
+```{r}
+#| echo: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_17.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
