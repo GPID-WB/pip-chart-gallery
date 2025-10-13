@@ -1,6 +1,6 @@
 ---
-title: "11 - Within country inequality across the world"
-description: "At present, high-inequality economies are concentrated in Sub-Saharan Africa and Latin America and the Caribbean"
+title: "11 - Inequality across the world"
+description: "High-inequality economies are concentrated in Sub-Saharan Africa and Latin America and the Caribbean"
 order: 11
 format: html
 image: /images/Map1.png

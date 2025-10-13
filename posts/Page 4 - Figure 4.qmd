@@ -1,6 +1,6 @@
 ---
-title: "4 - Poverty projections at $3.0 until 2050 under different scenarios"
-description: "The 3 percent goal remains out of reach for decades if current conditions don't change"
+title: "4 - Projections of extreme poverty under different scenarios"
+description: "The 3 percent goal remains out of reach for decades if current conditions continue"
 order: 4
 format: html
 image: /images/Fig4.png
@@ -33,6 +33,6 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Poverty rates are reported for the \$3.00 per person per day poverty line (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank's target of ending extreme.
+Note: Poverty rates are reported for the \$3.00 per person per day poverty line (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in the June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 3% and indicates the World Bank's target of ending extreme poverty.
 
 </p>

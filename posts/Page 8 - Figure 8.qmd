@@ -1,6 +1,6 @@
 ---
-title: "8- Global Prosperity Gap trends"
-description: "Stalled progress in Global Prosperity Gap reduction"
+title: "8- Global Prosperity Gap"
+description: "Progress in reducing the Global Prosperity Gap has stalled"
 order: 8
 format: html
 image: /images/Fig8.png
@@ -25,6 +25,6 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: The estimates after 2024 are nowcasts.
+Note: The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars). The estimates after 2024 are nowcasts.
 
 </p>

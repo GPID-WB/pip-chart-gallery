@@ -1,6 +1,6 @@
 ---
-title: "7 - Poverty at $8.3 relative to 2019 levels"
-description: "Poverty is still above prepandemic levels in the poorest countries"
+title: "7 - Progress in poverty at $8.30 line since 2019"
+description: "Poverty at the $8.30 line is still above pre-COVID-19 levels in the poorest countries"
 order: 7
 format: html
 image: /images/Fig7.png
@@ -25,6 +25,6 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Poverty rates are shown relative to 2019 levels for the \$8.3 person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects. High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the \$8.3 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the \$3.0 poverty line were less than 0.05 percentage points. Income group is kept fixed using the fiscal year 2024 classifications.
+Note: Poverty rates are shown relative to 2019 levels for the $8.30 per person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys cover less than 50 percent of the group's population between 2019 and 2022. The estimates after 2024 are nowcasts. High-income countries are omitted because poverty rates are small. Income group is kept fixed using the fiscal year 2024 classifications.
 
 </p>
