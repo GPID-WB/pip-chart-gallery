@@ -1,0 +1,12 @@
+name: pip-chart-gallery
+title: pip-chart-gallery
+username: mviveros
+account: mviveros
+server: internal-server
+hostUrl: https://w0lxdrconn01.worldbank.org:443/__api__
+appId: 1097
+bundleId: 3464
+url: https://w0lxdrconn01.worldbank.org/content/8b001e0c-46e4-4481-9c73-8e56728ded5f/
+version: 1
+asMultiple: FALSE
+asStatic: TRUE
