@@ -2112,64 +2112,64 @@
       "checksum": "5ceb8ed943c56c245eae075907557069"
     },
     "_site/index.html": {
-      "checksum": "1d30abbceee1beb95ee9b72a8cb47a24"
+      "checksum": "5ba886c98b6c6e5ddf1d4f2d276ab7c6"
     },
     "_site/listings.json": {
       "checksum": "a7c042c9d88708cee325959b201367df"
     },
     "_site/posts/Page 1 - Figure 1.html": {
-      "checksum": "b5f119b94a9bf5890ba8b4ccf3fccbef"
+      "checksum": "2e0d6e5248cedaecf57b0648835a3354"
     },
     "_site/posts/Page 10 - Figure 10.html": {
-      "checksum": "57ca9d8370b94cb3e0830aebd3348833"
+      "checksum": "487726ebb86d66b46a0a28d0f940b332"
     },
     "_site/posts/Page 11 - Figure 11.html": {
-      "checksum": "b2c62c7e76a216acc3b99be1406b55d8"
+      "checksum": "eb63ede218d34b5b31026c52bdbb10e5"
     },
     "_site/posts/Page 12 - Figure 12.html": {
-      "checksum": "e61a7c0b43d3fd51e07bc8d1437ba425"
+      "checksum": "fe271fbb575de6e78663bbfc7e7d7b0c"
     },
     "_site/posts/Page 13 - Figure 13.html": {
-      "checksum": "3bde3e01167753378c9a86eca612b4bb"
+      "checksum": "a92eafd79b625231e9415a3f141c4c35"
     },
     "_site/posts/Page 14 - Figure 14.html": {
-      "checksum": "455a9b9cf5b4b9369772ce654b038115"
+      "checksum": "a28b19bce5e0a9fbf38c1d4398bc83fb"
     },
     "_site/posts/Page 15 - Figure 15.html": {
-      "checksum": "dacdc06a717b9e6865098b604fc1856d"
+      "checksum": "9e3d6c1f46c6eb6e29b296a33553c4cf"
     },
     "_site/posts/Page 16 - Figure 16.html": {
-      "checksum": "be71842bee0cc10a9280784ce38de8ea"
+      "checksum": "2d13d5e40c1ec92bab7660a28f537e49"
     },
     "_site/posts/Page 17 - Figure 17.html": {
-      "checksum": "671f8aedccfbdb4098ca7fbaacae1863"
+      "checksum": "a1b9a67cb5f28f815ae66d06661f1a48"
     },
     "_site/posts/Page 2 - Figure 2.html": {
-      "checksum": "8cde19b79f96c4ca9488651ec74fa5ec"
+      "checksum": "b1650fac00ed47f5a4016fb4d287ab9d"
     },
     "_site/posts/Page 3 - Figure 3.html": {
-      "checksum": "2108779de540bf08b1d5e21e9134d82b"
+      "checksum": "5c386885e7a728de400b99f77b3e3332"
     },
     "_site/posts/Page 4 - Figure 4.html": {
-      "checksum": "96ef0e6e677e6e00ea3c21cb706a3253"
+      "checksum": "b1b1e1baeb7e3422a46ddb818a67e418"
     },
     "_site/posts/Page 5 - Figure 5.html": {
-      "checksum": "8950944d50340c9b7f512010f48e0e2d"
+      "checksum": "ace889f7a144bb9f0502dd6125a0eccb"
     },
     "_site/posts/Page 6 - Figure 6.html": {
-      "checksum": "370e320f089ab63663d661dea24e5888"
+      "checksum": "674a27d378ae87b2b8a81a4f1d4d5d8f"
     },
     "_site/posts/Page 7 - Figure 7.html": {
-      "checksum": "a2a7b3f3fa442cfd3726cabb2b9fdfdf"
+      "checksum": "54af6dd6083a8b5d6ad8deb394a296fa"
     },
     "_site/posts/Page 8 - Figure 8.html": {
-      "checksum": "8acabc746413825d2258ff49b9f6a03b"
+      "checksum": "51bdc9a952ccbea2f4c7295b0c001969"
     },
     "_site/posts/Page 9 - Figure 9.html": {
-      "checksum": "8ada71a9aad71cb426ed0fdfecc78005"
+      "checksum": "93b2d154040422c04972ac81e54fe10a"
     },
     "_site/search.json": {
-      "checksum": "fc5b70536e7d1281073edbfdb232ec0c"
+      "checksum": "bebb9f1bf917a8fba02bf0ab5556cb0f"
     },
     "_site/site_libs/bootstrap/bootstrap-icons.css": {
       "checksum": "7368407d15110275bb7af49476ae70f2"
@@ -2331,55 +2331,58 @@
       "checksum": "787f808fec2e1f8882b9c70aa039fbc9"
     },
     "posts/Page 1 - Figure 1.qmd": {
-      "checksum": "b84c240ce877022395cb9bd63efa7710"
+      "checksum": "86eb2171b6df483998e8d9b6bee2df63"
     },
     "posts/Page 10 - Figure 10.qmd": {
-      "checksum": "d042da7d8e5f308eea99a0ad521723d0"
+      "checksum": "577681ecee3bcea661b8953c5c4a2498"
     },
     "posts/Page 11 - Figure 11.qmd": {
-      "checksum": "5944cb71e3e996361545d21132f56a5d"
+      "checksum": "c282f54c302c12282daad0af82b3b832"
     },
     "posts/Page 12 - Figure 12.qmd": {
-      "checksum": "ed681015b97e231b2fa32b1ff9b353de"
+      "checksum": "e0479ec44da0fae0ac37d2e60c1e3925"
     },
     "posts/Page 13 - Figure 13.qmd": {
-      "checksum": "ca0507529e249c9ae956c54caf70ab6a"
+      "checksum": "298e31b0435851561976bd2ddd6cd372"
     },
     "posts/Page 14 - Figure 14.qmd": {
-      "checksum": "e8d47451c9f7ba769c56dce0ebd9fb6c"
+      "checksum": "5c0695704dd07d75431c9e4909584762"
+    },
+    "posts/Page 15 - Figure 15.html": {
+      "checksum": "9e3d6c1f46c6eb6e29b296a33553c4cf"
     },
     "posts/Page 15 - Figure 15.qmd": {
-      "checksum": "e0ca63eacd0ee6ff58f03a4fa595cb54"
+      "checksum": "e5e27c5f1b5fdbc787ab6eaa5f826586"
     },
     "posts/Page 16 - Figure 16.qmd": {
-      "checksum": "7dbd6c562308765a651c6c8ac9288408"
+      "checksum": "eb64c1d462fe757021c7b6bb68b15b5f"
     },
     "posts/Page 17 - Figure 17.qmd": {
-      "checksum": "17292476e8c58aefc632b2e9b948ba4b"
+      "checksum": "9d27690f4dee3b15a3a791a379dda6b0"
     },
     "posts/Page 2 - Figure 2.qmd": {
-      "checksum": "a856dd34cd120680252efd4d0ad2816f"
+      "checksum": "cf78b172010de00268f04dd632744d32"
     },
     "posts/Page 3 - Figure 3.qmd": {
-      "checksum": "c351362143b4cdf1e2d6ba6ed4efec39"
+      "checksum": "8b311d8e2d87caa3fa1f362b36991a46"
     },
     "posts/Page 4 - Figure 4.qmd": {
-      "checksum": "f18dd63c889b646d65ee1eae63e69fb9"
+      "checksum": "61e8da45f4b93095490b35e27bddb82f"
     },
     "posts/Page 5 - Figure 5.qmd": {
-      "checksum": "0d6968da5660c54ffeded34338cc6f75"
+      "checksum": "4442a2db46d25fe5de6a8feeee8516c1"
     },
     "posts/Page 6 - Figure 6.qmd": {
-      "checksum": "5cdcc347fbb0d762078198d0b8ace1b9"
+      "checksum": "44d8e46832bee2fd06ad1605304db893"
     },
     "posts/Page 7 - Figure 7.qmd": {
-      "checksum": "e7fa014b7e25932c4d6e8a28f0977a03"
+      "checksum": "ab433d7e9a0a4d559dde6c8ecbd56ee6"
     },
     "posts/Page 8 - Figure 8.qmd": {
-      "checksum": "e2997647cc0de54181c954db9d60a846"
+      "checksum": "47c5eb190a63861fc91b48dedf9fb294"
     },
     "posts/Page 9 - Figure 9.qmd": {
-      "checksum": "fe9b62f41c8607b91d2311e30272f5b6"
+      "checksum": "673f1f9879eab0333d235d9da235ea85"
     },
     "README.md": {
       "checksum": "259a3880c1f91e0b4315955e54bd380a"

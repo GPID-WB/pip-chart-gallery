@@ -1,6 +1,6 @@
 ---
-title: "17 - Concentration of poor by region"
-description: "Sub-Saharan Africa concentrates the largerst number of poor globally"
+title: "17 - Concentration of poor by region in 2025"
+description: "Sub-Saharan Africa accounts for most of the poor globally"
 order: 17
 format: html
 image: /images/Fig17.png
@@ -16,7 +16,7 @@ categories:
 #| warning: false
 library("downloadthis")
 download_link( 
-  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_17.csv", 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F17.csv", 
   button_label = "Download data as csv", 
   button_type = "primary", 
   has_icon = TRUE, 
@@ -25,4 +25,4 @@ download_link(
 )
 ```
 
-Note: Figures show the composition of poverty at the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the total number of poor living in a particular region, and the outer ring refers to the totals by country.
+Note: Figures show the composition of poverty at the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country.

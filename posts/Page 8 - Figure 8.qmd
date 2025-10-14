@@ -14,7 +14,7 @@ categories:
 #| warning: false
 library("downloadthis")
 download_link( 
-  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_fig_4a.csv", 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F8.csv", 
   button_label = "Download data as csv", 
   button_type = "primary", 
   has_icon = TRUE, 
