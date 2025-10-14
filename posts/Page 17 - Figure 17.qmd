@@ -1,5 +1,5 @@
 ---
-title: "17 - Millions of poor by region"
+title: "17 - Concentration of poor by region"
 description: "Sub-Saharan Africa concentrates the largerst number of poor globally"
 order: 17
 format: html
@@ -24,3 +24,5 @@ download_link(
   self_contained = FALSE 
 )
 ```
+
+Note: Figures show the composition of poverty at the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the total number of poor living in a particular region, and the outer ring refers to the totals by country.
