@@ -1,14 +1,14 @@
 ---
-title: "17 - Concentration of poverty by region in 2025"
-description: "Sub-Saharan Africa accounts for most of the poor globally"
+title: "17 - Evolution of population in poverty since 1990, by region"
+description: "While the number of poor has dropped over the past decades, in Sub-Saharan Africa the number has increased since COVID years"
 order: 17
 format: html
 image: /images/Fig17.png
 categories:
   - Poverty
 ---
+<div class="flourish-embed flourish-chart" data-src="visualisation/25687962?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25687962/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
 
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/25564496?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25564496/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
 ```{r}
 #| echo: false
 #| warning: false
@@ -25,10 +25,10 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Figures show the composition of poverty at the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country. Figure shows the nowcasts for 2025 using the global model.
+Note: Figures show the composition of poverty at the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Figure shows the nowcasts for 2025 using the global model.
 
 </p>
 
-<div class="post-nav" style="text-align: right;">
-[← Previous](Page 16 - Figure 16.qmd)
-</div>
+::: {.post-nav style="text-align: right;"}
+[← Previous](Page%2016%20-%20Figure%2016.qmd)
+:::
