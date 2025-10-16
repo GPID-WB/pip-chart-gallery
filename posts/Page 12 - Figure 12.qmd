@@ -23,7 +23,11 @@ download_link(
 )
 ```
 
+<p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
+
 Note: High-inequality economies have a Gini index above 40, moderate inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover all economies with at least one household survey in the Poverty and Inequality Platform after 2000. The Gini index is used from the latest survey year. Income group is based on the World Bank fiscal year 2026 list.The label values may not add to 100 percent due to rounding.
+
+</p>
 
 <div class="post-nav" style="text-align: right;">
 [← Previous](Page 11 - Figure 11.qmd)  |  [Next →](Page 13 - Figure 13.qmd)

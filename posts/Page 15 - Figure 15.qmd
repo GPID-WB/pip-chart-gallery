@@ -25,7 +25,11 @@ download_link(
 )
 ```
 
+<p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
+
 Note: PPP$ = purchasing power parity dollars. This figure shows the distribution of the population over income and consumption levels in 2025, cut off at 25 dollars per person per day and expressed in 2021 PPPs.
+
+</p>
 
 <div class="post-nav" style="text-align: right;">
 [← Previous](Page 14 - Figure 14.qmd)  |  [Next →](Page 16 - Figure 16.qmd)

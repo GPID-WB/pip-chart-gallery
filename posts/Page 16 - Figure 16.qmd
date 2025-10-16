@@ -30,7 +30,11 @@ download_link(
 )
 ```
 
+<p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
+
 Note: Note: FCS = fragile and conflict-affected situations, SSA = Sub-Saharan Africa. The extreme poverty rate is calculated at $3.00 per person per day (expressed in 2021 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragility and conflict-affected situations using classifications from each year until data year 2024 (FY 2026); the classification is kept fixed after. Poverty is projected after 2024 based on per capita GDP growth projections in the June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. Population coverage is below 50 percent for countries in FCS in 2000 and 2019.
+
+</p>
 
 <div class="post-nav" style="text-align: right;">
 [← Previous](Page 15 - Figure 15.qmd)  |  [Next →](Page 17 - Figure 17.qmd)
