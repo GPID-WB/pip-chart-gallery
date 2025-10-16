@@ -1,0 +1,12 @@
+name: pip-chart-gallery
+title: pip-chart-gallery
+username: mviver
+account: mviver
+server: external-server
+hostUrl: https://w0lxdshyprd1c01.worldbank.org:443/__api__
+appId: 697
+bundleId: 1528
+url: https://w0lxdshyprd1c01.worldbank.org/content/b5890252-abc3-4787-b420-81980d7615a0/
+version: 1
+asMultiple: FALSE
+asStatic: TRUE
