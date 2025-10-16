@@ -3,7 +3,6 @@ project:
 
 website:
   title: "PIP Chart Gallery"
-  page-navigation: true
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +16,7 @@ website:
         href: https://github.com/GPID-WB/pip-chartbook.git
   page-footer:
     left: "© 2025 Poverty & Inequality Platform"
-    right: "[![Logo](images/wbg_logo.png){height=30px}](https://www.worldbank.org)"
+    right: "[![](/images/wbg_logo.png){height=30px}](https://www.worldbank.org)"
 
 format:
   html:

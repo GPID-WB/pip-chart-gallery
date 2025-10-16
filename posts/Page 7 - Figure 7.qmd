@@ -1,5 +1,5 @@
 ---
-title: "7 - Concentration of poor by region in 2025"
+title: "7 - Concentration of poverty by region in 2025"
 description: "Sub-Saharan Africa accounts for most of the poor globally"
 order: 7
 format: html
@@ -20,7 +20,7 @@ categories:
 #| warning: false
 library("downloadthis")
 download_link( 
-  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F17.csv", 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F7.csv", 
   button_label = "Download data as csv", 
   button_type = "primary", 
   has_icon = TRUE, 
@@ -29,7 +29,7 @@ download_link(
 )
 ```
 
-Note: Figures show the composition of poverty at the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country.
+Note: Figures show the composition of poverty at the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country. Figure shows the nowcasts for 2025 using the global model.
 
 <div class="post-nav" style="text-align: right;">
 [← Previous](Page 6 - Figure 6.qmd)  |  [Next →](Page 8 - Figure 8.qmd)

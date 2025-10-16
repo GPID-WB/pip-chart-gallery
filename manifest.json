@@ -2054,8 +2054,11 @@
     }
   },
   "files": {
+    ".RData": {
+      "checksum": "099c792e95e304b7dd8d9f03b4e82387"
+    },
     "_quarto.yml": {
-      "checksum": "29e07825a28e288938c89da3a4400336"
+      "checksum": "38adae552e2b675346d2a850ee3933d8"
     },
     "_site/about.html": {
       "checksum": "6ee2d196900281c85350d66be675ebac"
@@ -2115,13 +2118,13 @@
       "checksum": "ffcb8a3b1deacb26d9164ba61dd44e9a"
     },
     "_site/index.html": {
-      "checksum": "367d2844f421c627bf21ca63210c09fa"
+      "checksum": "614a2d305e621dbb9bd9fd631083ec13"
     },
     "_site/listings.json": {
       "checksum": "a7c042c9d88708cee325959b201367df"
     },
     "_site/posts/Page 1 - Figure 1.html": {
-      "checksum": "99c38a8dc00fb8fc30180f25420f82f7"
+      "checksum": "e6fbf9b446a2673162afcbb40f0c5279"
     },
     "_site/posts/Page 10 - Figure 10.html": {
       "checksum": "08d8e07f9283419c95aa7b1ef69049aa"
@@ -2142,28 +2145,28 @@
       "checksum": "b18a8a97ac80653b1b35f69d3a1b43d0"
     },
     "_site/posts/Page 16 - Figure 16.html": {
-      "checksum": "a885034917de093ceefcf4e9ef92fef8"
+      "checksum": "5600f9831ad918eb88cf6cc289cd3abe"
     },
     "_site/posts/Page 17 - Figure 17.html": {
-      "checksum": "164e15a8671cbee6ca1e165bb51e3712"
+      "checksum": "befb519242dd8ad2335cfd1f5b8309d5"
     },
     "_site/posts/Page 2 - Figure 2.html": {
-      "checksum": "c61596c9e597a7ebf6586b74a00f73b0"
+      "checksum": "109e1f33c5df0796062dc0f6920f88ae"
     },
     "_site/posts/Page 3 - Figure 3.html": {
       "checksum": "3a76732a8683d301a68521c0523f71b1"
     },
     "_site/posts/Page 4 - Figure 4.html": {
-      "checksum": "0856cde293924023ccb67a230148650c"
+      "checksum": "89572abe281107f28c3e513cdbc3a1c3"
     },
     "_site/posts/Page 5 - Figure 5.html": {
       "checksum": "db0a7f15d4b5415c85ed05a8d297eccf"
     },
     "_site/posts/Page 6 - Figure 6.html": {
-      "checksum": "351128e11fed9e9d25af8930b95fecc2"
+      "checksum": "87a997fdaaa092316de9e4f12e034bc3"
     },
     "_site/posts/Page 7 - Figure 7.html": {
-      "checksum": "9d3c638b7ef40fefb87a0b8ee8e29428"
+      "checksum": "143d43c331f3428d87f1e04d4c42ad00"
     },
     "_site/posts/Page 8 - Figure 8.html": {
       "checksum": "7ed128e60c022de647ff291d42bb8725"
@@ -2172,7 +2175,7 @@
       "checksum": "ee7fab346214167ca3b16ba97a22ac30"
     },
     "_site/search.json": {
-      "checksum": "db5d7cd7bc464a20fc5182103b749e7b"
+      "checksum": "edbbbae09a4c779ac1e4822a5edd7acc"
     },
     "_site/site_libs/bootstrap/bootstrap-icons.css": {
       "checksum": "08f8c9cd5208dccdb9ddd8c9a95e3f92"
@@ -2337,7 +2340,7 @@
       "checksum": "787f808fec2e1f8882b9c70aa039fbc9"
     },
     "posts/Page 1 - Figure 1.qmd": {
-      "checksum": "fc4cf396be4dc7ca70507c4215852b81"
+      "checksum": "9638962a91ae29dc19e4d7452ff2d42d"
     },
     "posts/Page 10 - Figure 10.qmd": {
       "checksum": "568c481e0cf20b323284bce3c5764baa"
@@ -2361,25 +2364,25 @@
       "checksum": "af4d1d75451c04c4287ad19c09aa914d"
     },
     "posts/Page 17 - Figure 17.qmd": {
-      "checksum": "ad5c2852e403ec8f60f0cbd262ae04a6"
+      "checksum": "1fcff7e2709176006c7db505b5a9c3b6"
     },
     "posts/Page 2 - Figure 2.qmd": {
-      "checksum": "66f14eb2cbb1d0e650890535f0cfea60"
+      "checksum": "a46694d69ecf0b957dd698304275b0dc"
     },
     "posts/Page 3 - Figure 3.qmd": {
       "checksum": "a350a70aa5130710d7d6145532b05d32"
     },
     "posts/Page 4 - Figure 4.qmd": {
-      "checksum": "ae456846a05b9180f4e0c20b7f3c9e34"
+      "checksum": "a7202564176ce757ac53f0c30b352077"
     },
     "posts/Page 5 - Figure 5.qmd": {
       "checksum": "87afc935aa9cdb98f126f5c206417010"
     },
     "posts/Page 6 - Figure 6.qmd": {
-      "checksum": "8b2dd8e8904e082ff5755f124e5a50ac"
+      "checksum": "6da842a6f2f00dcc51910d44dc52d4ef"
     },
     "posts/Page 7 - Figure 7.qmd": {
-      "checksum": "95207d2d590220aa2a9440ddcb8a0a3e"
+      "checksum": "6203e3e517c9d4af8fa4df4a67f8e646"
     },
     "posts/Page 8 - Figure 8.qmd": {
       "checksum": "d7bbb36651780e3e1c1eaea6fad8d5c0"

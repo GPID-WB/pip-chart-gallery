@@ -7,7 +7,7 @@ image: /images/Fig1.png
 categories:
   - Poverty
 ---
-Since 2015, the pace of poverty reduction has slowed down. At the current pace of progress, the goal of reducing poverty below 3% by 2030 is out of reach.
+Since 2015, the pace of extreme poverty reduction has slowed down. At the current pace of progress, the goal of reducing extreme poverty below 3% by 2030 is out of reach.
 
 ::: {.flourish-embed .flourish-chart data-src="visualisation/24992551?515064"}
 ```{=html}

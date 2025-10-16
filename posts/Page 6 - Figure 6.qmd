@@ -1,6 +1,6 @@
 ---
 title: "6 - Progress in extreme poverty since 2019"
-description: "Extreme poverty is still above pre-COVID-19 levels in the poorest countries. At the $8.30 line is still above pre-COVID-19 levels."
+description: "Poverty is still above pre-COVID-19 levels in the poorest countries"
 order: 6
 format: html
 image: /images/Fig6.png
