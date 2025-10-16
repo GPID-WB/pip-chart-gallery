@@ -1,6 +1,6 @@
 ---
-title: "7 - Progress in poverty at $8.30 line since 2019"
-description: "Poverty at the $8.30 line is still above pre-COVID-19 levels in the poorest countries"
+title: "7 - Concentration of poor by region in 2025"
+description: "Sub-Saharan Africa accounts for most of the poor globally"
 order: 7
 format: html
 image: /images/Fig7.png
@@ -8,13 +8,19 @@ categories:
   - Poverty
 ---
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/25089264?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25089264/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+::: {.flourish-embed .flourish-hierarchy data-src="visualisation/25564496?515064"}
+```{=html}
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+```
+<noscript><img src="https://public.flourish.studio/visualisation/25564496/thumbnail" alt="hierarchy visualization" width="100%"/></noscript>
+:::
+
 ```{r}
 #| echo: false
 #| warning: false
 library("downloadthis")
 download_link( 
-  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F7.csv", 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F17.csv", 
   button_label = "Download data as csv", 
   button_type = "primary", 
   has_icon = TRUE, 
@@ -23,8 +29,8 @@ download_link(
 )
 ```
 
-<p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
+Note: Figures show the composition of poverty at the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country.
 
-Note: Poverty rates are shown relative to 2019 levels for the $8.30 per person per day poverty line (expressed in 2021 PPP dollars). The line for low-income countries is dotted because the surveys cover less than 50 percent of the group's population between 2019 and 2022. The estimates after 2024 are nowcasts. High-income countries are omitted because poverty rates are small. Income group is kept fixed using the fiscal year 2024 classifications.
-
-</p>
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 6 - Figure 6.qmd)  |  [Next →](Page 8 - Figure 8.qmd)
+</div>

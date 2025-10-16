@@ -7,6 +7,7 @@ image: /images/Fig2.png
 categories:
   - Poverty
 ---
+Since 1990, around 1.5 billion people have been lifted out of extreme poverty ($3.00). However, the population living on less than $8.30 per day has remained unchanged.
 
 ::: {.flourish-embed .flourish-chart data-src="visualisation/24994782?515064"}
 ```{=html}
@@ -31,6 +32,10 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Millions of poor are reported for the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected from 2026 to 2030 based on per capita GDP growth projections in the June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook. The black horizontal line is drawn at 256 million which represents 3% of the global population projected for 2030, the World Bank's target of ending extreme poverty.
+Note: Millions of poor are reported for the \$3.00, \$4.20, and \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected after 2024 based on per capita GDP growth projections in the June 2025 Global Economic Prospects complemented by the April 2025 Macro Poverty Outlook and the World Economic Outlook.
 
 </p>
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 1 - Figure 1.qmd) | [Next →](Page 3 - Figure 3.qmd)
+</div>

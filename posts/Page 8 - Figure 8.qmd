@@ -8,7 +8,13 @@ categories:
   - Prosperity Gap
 ---
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/25382993?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25382993/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+::: {.flourish-embed .flourish-chart data-src="visualisation/25382993?515064"}
+```{=html}
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+```
+<noscript><img src="https://public.flourish.studio/visualisation/25382993/thumbnail" alt="chart visualization" width="100%"/></noscript>
+:::
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -25,6 +31,10 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars). The estimates after 2024 are nowcasts.
+Note: The Global Prosperity Gap captures the average shortfall from a prosperity standard of \$28/day (expressed in 2021 PPP dollars). The estimates after 2024 are nowcasts. See [Kraay et al (2023)](https://openknowledge.worldbank.org/entities/publication/66f2dcfb-ce37-47fe-a99b-3a70e7b9dd60) for more details.
 
 </p>
+
+::: {.post-nav style="text-align: right;"}
+[← Previous](Page%207%20-%20Figure%207.qmd) \| [Next →](Page%209%20-%20Figure%209.qmd)
+:::

@@ -30,6 +30,10 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Regional contribution (percent) to the Global Prosperity Gap in 2025, compared with the regional population shares. The label values may not add to 100 percent due to rounding. The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars).
+Note: Regional contribution (percent) to the Global Prosperity Gap in 2025, compared with the regional population shares. The label values may not add to 100 percent due to rounding. The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars). See [Kraay et al (2023)](https://openknowledge.worldbank.org/entities/publication/66f2dcfb-ce37-47fe-a99b-3a70e7b9dd60) for more details.
 
 </p>
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 8 - Figure 8.qmd) | [Next →](Page 10 - Figure 10.qmd)
+</div>

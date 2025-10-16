@@ -24,6 +24,10 @@ download_link(
 ```
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). All observed and projected data are shown with solid and dashed lines, respectively, where dashed data points are cases with insufficient data coverage (i.e., less than 50% of the population have recent survey data).  2025 data points are poverty nowcasts. 
+Note: Poverty rates are reported for the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). All observed and projected data are shown with solid and dashed lines, respectively, where dashed data points are cases with insufficient data coverage (i.e., less than 50% of the population have recent survey data).  Data points after 2024 are poverty nowcasts. 
 
 </p>
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 2 - Figure 2.qmd)  |  [Next →](Page 4 - Figure 4.qmd)
+</div>

@@ -9,8 +9,6 @@ categories:
 ---
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/25564496?515064"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/25564496/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
-
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -26,3 +24,7 @@ download_link(
 ```
 
 Note: Figures show the composition of poverty at the $3.00, $4.20, and $8.30 per person per day poverty lines (expressed in 2021 PPP dollars). In all figures, the inner ring shows the millions of poor people living in a particular region, and the outer ring refers to the totals by country.
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 16 - Figure 16.qmd)
+</div>

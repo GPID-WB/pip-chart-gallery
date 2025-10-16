@@ -1,6 +1,6 @@
 ---
 title: "15 - Global income or consumption distribution in 2025"
-description: "Income levels in the world have grown between 1990 and 2025, but many people remain vulnerable to falling back into poverty"
+description: "Many people in lower-middle-income countries remain vulnerable to falling back into poverty"
 order: 15
 format: html
 image: /images/Fig15.png
@@ -16,7 +16,7 @@ categories:
 #| warning: false
 library("downloadthis")
 download_link( 
-  link = "]https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F15.csv", 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F15.csv", 
   button_label = "Download data as csv", 
   button_type = "primary", 
   has_icon = TRUE, 
@@ -26,3 +26,7 @@ download_link(
 ```
 
 Note: PPP$ = purchasing power parity dollars. This figure shows the distribution of the population over income and consumption levels in 2025, cut off at 25 dollars per person per day and expressed in 2021 PPPs.
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 14 - Figure 14.qmd)  |  [Next →](Page 16 - Figure 16.qmd)
+</div>

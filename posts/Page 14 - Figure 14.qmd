@@ -26,3 +26,7 @@ download_link(
 ```
 
 Note: PPP$ = purchasing power parity dollars. This figure shows the distribution of the population over income and consumption levels in 1990, cut off at 25 dollars per person per day and expressed in 2021 PPP dollars.
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 13 - Figure 13.qmd)  |  [Next →](Page 15 - Figure 15.qmd)
+</div>

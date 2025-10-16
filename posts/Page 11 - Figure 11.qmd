@@ -25,3 +25,7 @@ download_link(
 ```
 
 Note: The map presents Gini indexes for the latest available survey (after 2000), which measures the inequality of income or consumption, depending on the economy. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30.
+
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 10 - Figure 10.qmd)  |  [Next →](Page 12 - Figure 12.qmd)
+</div>
