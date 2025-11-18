@@ -4,7 +4,7 @@ project:
 website:
   title: ""
   navbar:
-    logo: images/pip_logo.png 
+    logo: /images/pip_logo.png
     logo-href: https://pip.worldbank.org
     left:
       - href: index.qmd
