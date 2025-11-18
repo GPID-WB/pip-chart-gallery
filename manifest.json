@@ -2058,73 +2058,79 @@
       "checksum": "099c792e95e304b7dd8d9f03b4e82387"
     },
     "_quarto.yml": {
-      "checksum": "38adae552e2b675346d2a850ee3933d8"
+      "checksum": "2ba4ed91edff4dfc09f2dbe0e3584e6a"
     },
     "_site/about.html": {
       "checksum": "6ee2d196900281c85350d66be675ebac"
     },
     "_site/images/Fig1.png": {
-      "checksum": "8d201a180c19764557ec8ed01b6f9b21"
+      "checksum": "a8924bb108a14ea3955e3d46e7592a45"
     },
     "_site/images/Fig10.png": {
-      "checksum": "be6743b0ee8b0c27d88a0b7b7baa35d5"
+      "checksum": "8f0e9556de14582560bdbd5ac8e748ae"
     },
     "_site/images/Fig12.png": {
-      "checksum": "d0bddb084c49737f21f64b2dd97d448a"
+      "checksum": "d6183a9c5277d11fc89f8b67a6a35b80"
     },
     "_site/images/Fig13.png": {
-      "checksum": "fa714e55e91d9f1ce80323a2c1f49f28"
+      "checksum": "8028ae6b4262af672991564551de88b5"
     },
     "_site/images/Fig14.png": {
-      "checksum": "13624ff2bf846b3b501909663c009785"
+      "checksum": "5c69b024032130f5e71d8ad81710dc36"
     },
     "_site/images/Fig15.png": {
-      "checksum": "a5faa623bff51edc1880d412042a9392"
+      "checksum": "b78c9621176e5c81448a92060d67ba88"
     },
     "_site/images/Fig16.png": {
-      "checksum": "d67c54bcf68071219f7c5af87839a810"
+      "checksum": "12fc24fd0b96a79a4026cd91806f25f5"
     },
     "_site/images/Fig17.png": {
-      "checksum": "cd98f754e13a6eaeac063297b38ecd31"
+      "checksum": "51e697da808d4a1b19000135283e2767"
+    },
+    "_site/images/Fig18.png": {
+      "checksum": "c8064057f17a2e24bd4afee2c7b53bd3"
     },
     "_site/images/Fig2.png": {
-      "checksum": "071f7c595549f4d73bbd77407bd677f8"
+      "checksum": "79cdaf14e416946d5b88ceabc52ab665"
     },
     "_site/images/Fig3.png": {
-      "checksum": "4156376634455cf5a808592ac8d077ef"
+      "checksum": "89a5f3aa21d8d2749d9772467533a388"
     },
     "_site/images/Fig4.png": {
-      "checksum": "87fb66eda8eee90e011056f89c776e0c"
+      "checksum": "53138d0e7b4a23a70e7e5b7b93ccbd65"
     },
     "_site/images/Fig5.png": {
-      "checksum": "29d939bc00c6ba9b9f0eca401d92693c"
+      "checksum": "05c0cbec9413de054f64abb452624abe"
     },
     "_site/images/Fig6.png": {
-      "checksum": "326869fd78f6576d859baf981527ebb3"
+      "checksum": "8a94cec9ec447844f8d0d76f4ac3591d"
     },
     "_site/images/Fig7.png": {
-      "checksum": "0aebf532d97b1fd0388773e11019eea0"
+      "checksum": "1b0e180e3a17684f16d4f9b6a5f0801e"
     },
     "_site/images/Fig8.png": {
-      "checksum": "85133d2267337e82923ae17d97b0cdcc"
+      "checksum": "681cd139d9bae46d538acab0381ff5b9"
     },
     "_site/images/Fig9.png": {
-      "checksum": "79bf119969ba48edaf1cc3bfaa8d1e23"
+      "checksum": "d1e8ad227bc4748044f2adaa0cb71a8f"
     },
     "_site/images/Map1.png": {
-      "checksum": "92b9a725f08567ff4f60133e9e1430f8"
+      "checksum": "fe004fdae13bcaeb3a355fbfbe186b28"
+    },
+    "_site/images/pip_logo.png": {
+      "checksum": "4c2ec6f761f86317fee4846213eb8d2f"
     },
     "_site/images/wbg_logo.png": {
       "checksum": "ffcb8a3b1deacb26d9164ba61dd44e9a"
     },
     "_site/index.html": {
-      "checksum": "c1e2695df6bdb69d7a51f536ed5a6fc2"
+      "checksum": "3959ec7654f33e4094d40fe3aa8c47f5"
     },
     "_site/listings.json": {
-      "checksum": "a7c042c9d88708cee325959b201367df"
+      "checksum": "9765613e02a845be44802b8e27318bef"
     },
     "_site/posts/Page 1 - Figure 1.html": {
-      "checksum": "b2b497dda47ef7073d19ba96241b07f3"
+      "checksum": "1ca6c2671117e8802180812b33016339"
     },
     "_site/posts/Page 10 - Figure 10.html": {
       "checksum": "256168af4ca9fe3f3c2e2aaa3d746b2e"
@@ -2148,19 +2154,22 @@
       "checksum": "cbc0955c9731d8fd8a28786d88dfedc9"
     },
     "_site/posts/Page 17 - Figure 17.html": {
-      "checksum": "3a01b994dee085bca4ef19fbfe814bfb"
+      "checksum": "a3b2911fdb7251c73a416c97a969352a"
+    },
+    "_site/posts/Page 18 - Figure 18.html": {
+      "checksum": "47c696300f821478adb8e5e191c7790f"
     },
     "_site/posts/Page 2 - Figure 2.html": {
-      "checksum": "f65d4fb70202600a654d6295ce25a4c3"
+      "checksum": "1dd825f9eb70843c8ff361f90a72a3c5"
     },
     "_site/posts/Page 3 - Figure 3.html": {
-      "checksum": "f7d34816904cf834c29300de72fa5c5a"
+      "checksum": "f59d8d1575a4e8b0f9e865d2ff6063d2"
     },
     "_site/posts/Page 4 - Figure 4.html": {
-      "checksum": "d87a11f0390b3291982d864a6df5a27d"
+      "checksum": "a90e8120e225723f6daec98cf581b44b"
     },
     "_site/posts/Page 5 - Figure 5.html": {
-      "checksum": "052be654db9ea4a47a31a3e06c5da81c"
+      "checksum": "8703da93fe11d3fa94d5ecf9b55bf5e2"
     },
     "_site/posts/Page 6 - Figure 6.html": {
       "checksum": "7eb15774206c2064d3e23327d0c38b9e"
@@ -2175,7 +2184,7 @@
       "checksum": "ae2d14ef4e9f808d2e9731f050d9d951"
     },
     "_site/search.json": {
-      "checksum": "5bfa47dacc428c79e96a6a9dd5e80885"
+      "checksum": "9fd529bb7f06b1c4a0f9808604e29c98"
     },
     "_site/site_libs/bootstrap/bootstrap-icons.css": {
       "checksum": "08f8c9cd5208dccdb9ddd8c9a95e3f92"
@@ -2184,7 +2193,7 @@
       "checksum": "dfd2a6bd06f9dd7437ee67673cd9c447"
     },
     "_site/site_libs/bootstrap/bootstrap.min.css": {
-      "checksum": "c16098636ee9a0f2b3b5e570220beb54"
+      "checksum": "5f0fe2e90913d43b0d93eeead836d3dd"
     },
     "_site/site_libs/bootstrap/bootstrap.min.js": {
       "checksum": "2591536dc6f1d305043be991897839ab"
@@ -2265,7 +2274,7 @@
       "checksum": "cb4f7f1e5884c1f9bf848ee905e32800"
     },
     "_site/styles.css": {
-      "checksum": "87abfd2131bb25c0f1746da5ba271319"
+      "checksum": "d0bcd5f87523ed586572eccd4ce33d80"
     },
     "about.qmd": {
       "checksum": "997997edee2a06edb9c6930ce5bf5306"
@@ -2274,19 +2283,19 @@
       "checksum": "c58b42659b6e9f00fb1e6789b8e6e7c5"
     },
     "images/Fig1.png": {
-      "checksum": "8d201a180c19764557ec8ed01b6f9b21"
+      "checksum": "bce807e487a5fe247492e3d5bd0319c7"
     },
     "images/Fig10.png": {
       "checksum": "be6743b0ee8b0c27d88a0b7b7baa35d5"
     },
     "images/Fig12.png": {
-      "checksum": "d0bddb084c49737f21f64b2dd97d448a"
+      "checksum": "81bbd6594312e4fc8fb35e0376e9876b"
     },
     "images/Fig13.png": {
       "checksum": "fa714e55e91d9f1ce80323a2c1f49f28"
     },
     "images/Fig14.png": {
-      "checksum": "13624ff2bf846b3b501909663c009785"
+      "checksum": "220b8df3d435c849f91538189c932a8e"
     },
     "images/Fig15.png": {
       "checksum": "a5faa623bff51edc1880d412042a9392"
@@ -2297,11 +2306,14 @@
     "images/Fig17.png": {
       "checksum": "cd98f754e13a6eaeac063297b38ecd31"
     },
+    "images/Fig18.png": {
+      "checksum": "7f33127da70d08ee035750e60f6c4662"
+    },
     "images/Fig2.png": {
-      "checksum": "071f7c595549f4d73bbd77407bd677f8"
+      "checksum": "bbf00e1290e7d89a9e003a26f5227498"
     },
     "images/Fig3.png": {
-      "checksum": "4156376634455cf5a808592ac8d077ef"
+      "checksum": "89a5f3aa21d8d2749d9772467533a388"
     },
     "images/Fig4.png": {
       "checksum": "87fb66eda8eee90e011056f89c776e0c"
@@ -2364,7 +2376,10 @@
       "checksum": "8a4cea2ab6cecc90c57f1792281b6dfe"
     },
     "posts/Page 17 - Figure 17.qmd": {
-      "checksum": "9cfc0525a23ff73328c475761c0424a3"
+      "checksum": "67768da5623dfd61ab319c2e09b96ed9"
+    },
+    "posts/Page 18 - Figure 18.qmd": {
+      "checksum": "8e6fe4e5467296d1bcc010a3e02f5074"
     },
     "posts/Page 2 - Figure 2.qmd": {
       "checksum": "a46694d69ecf0b957dd698304275b0dc"
@@ -2394,7 +2409,7 @@
       "checksum": "259a3880c1f91e0b4315955e54bd380a"
     },
     "styles.css": {
-      "checksum": "87abfd2131bb25c0f1746da5ba271319"
+      "checksum": "d0bcd5f87523ed586572eccd4ce33d80"
     }
   },
   "users": null

@@ -29,6 +29,6 @@ Note: Figures show the composition of poverty at the \$3.00, \$4.20, and \$8.30 
 
 </p>
 
-::: {.post-nav style="text-align: right;"}
-[← Previous](Page%2016%20-%20Figure%2016.qmd)
-:::
+<div class="post-nav" style="text-align: right;">
+[← Previous](Page 16 - Figure 16.qmd)  |  [Next →](Page 18 - Figure 18.qmd)
+</div>

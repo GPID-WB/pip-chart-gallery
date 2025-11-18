@@ -1,0 +1,40 @@
+---
+title: "18 - Global Growth Incidence Curves"
+description: "Illustrate how the growth in global income or consumption has been distributed among richer and poorer parts of the world"
+order: 18
+format: html
+image: /images/Fig18.png
+categories:
+  - Growth
+---
+
+::: {.flourish-embed .flourish-chart data-src="visualisation/26059291?515064"}
+```{=html}
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+```
+<noscript><img src="https://public.flourish.studio/visualisation/26059291/thumbnail" alt="chart visualization" width="100%"/></noscript>
+:::
+
+```{r}
+#| echo: false
+#| warning: false
+library("downloadthis")
+download_link( 
+  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F18.csv", 
+  button_label = "Download data as csv", 
+  button_type = "primary", 
+  has_icon = TRUE, 
+  icon = "fa fa-save", 
+  self_contained = FALSE 
+)
+```
+
+<p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
+
+Note: Growth rates are calculated using PIP's [1000 Binned Global Distribution dataset.](https://datacatalog.worldbank.org/search/dataset/0064304/1000-Binned-Global-Distribution)
+
+</p>
+
+::: {.post-nav style="text-align: right;"}
+[← Previous](Page%2017%20-%20Figure%2017.qmd)
+:::

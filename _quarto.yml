@@ -2,15 +2,14 @@ project:
   type: website
 
 website:
-  title: "PIP Chart Gallery"
+  title: ""
   navbar:
+    logo: images/pip_logo.png 
+    logo-href: https://pip.worldbank.org
     left:
       - href: index.qmd
         text: Home
     right:
-      - icon: globe
-        text: PIP Home
-        href: https://pip.worldbank.org  
       - icon: github
         text: Source Data
         href: https://github.com/GPID-WB/pip-chartbook.git
@@ -23,6 +22,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    grid:
+      body-width: 950px
+      margin-width: 180px
 
 execute:
   python: false

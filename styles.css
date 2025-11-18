@@ -13,3 +13,32 @@
 .navbar a:hover {
   color: #ffffff !important;
 }
+
+/* Make grid items have rounded corners and subtle shadows */
+.quarto-grid-item, .card {
+  border-radius: 12px;
+  overflow: hidden; /* ensures images respect rounding */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Slight hover lift effect */
+.quarto-grid-item:hover, .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: round images inside the grid */
+.quarto-grid-item img, .card img {
+  border-radius: 12px 12px 0 0;
+}
+
+/* Add some padding inside cards */
+.quarto-grid-item .card-body, .card-body {
+  padding: 1rem;
+}
+
+/* Subtle gradient to make cards pop */
+.quarto-grid-item {
+  background: linear-gradient(145deg, #ffffff, #f9f9f9);
+}
