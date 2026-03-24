@@ -14,7 +14,7 @@ website:
         text: Source Data
         href: https://github.com/GPID-WB/pip-chartbook.git
   page-footer:
-    left: "© 2025 Poverty & Inequality Platform"
+    left: "© 2026 Poverty & Inequality Platform"
     right: "[![](/images/wbg_logo.png){height=30px}](https://www.worldbank.org)"
 
 format:
