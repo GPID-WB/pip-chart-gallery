@@ -33,7 +33,7 @@ download_link(
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 
-Note: Poverty rates are reported for the \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected after 2024 based on per capita GDP growth projections in the January 2026 Global Economic Prospects complemented by the October 2025 Macro Poverty Outlook and the World Economic Outlook. Projections after 2030 are based on average annual historical per capita GDP growth rates from 2015-2019.
+Note: Poverty rates are reported for the \$8.30 per person per day poverty lines (expressed in 2021 PPP dollars). Poverty is projected after 2024 based on per capita GDP growth projections in the January 2026 Global Economic Prospects complemented by the October 2025 Macro Poverty Outlook and the World Economic Outlook. Projections after 2030 are based on average annual historical per capita GDP growth rates from 2024-2025.
 
 </p>
 
