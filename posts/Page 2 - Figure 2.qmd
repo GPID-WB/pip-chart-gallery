@@ -20,13 +20,21 @@ Since 1990, around 1.5 billion people have been lifted out of extreme poverty ($
 #| echo: false
 #| warning: false
 library("downloadthis")
-download_link( 
-  link = "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F2.csv", 
-  button_label = "Download data as csv", 
-  button_type = "primary", 
-  has_icon = TRUE, 
-  icon = "fa fa-save", 
-  self_contained = FALSE 
+csv_file <- file.path(tempdir(), "chartbook_F2.csv")
+download.file(
+  "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F2.csv",
+  destfile = csv_file,
+  mode = "wb",
+  quiet = TRUE
+)
+download_file(
+  path = csv_file,
+  output_name = "chartbook_F2",
+  button_label = "Download data as csv",
+  button_type = "primary",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
 )
 ```
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>17 - Evolution of population in poverty since 1990, by region</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -31,22 +34,29 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-79f1a96d0704b718fbc149ed7ae6d69b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,49 +65,54 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-<script src="../site_libs/font-awesome-6.7.2/js/script.js"></script>
+<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
+
+<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
+
 
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="https://pip.worldbank.org" class="navbar-brand navbar-brand-logo">
-    <img src="../images/pip_logo.png" alt="" class="navbar-logo">
+    <img src="../images/pip_logo.png" alt="" class="navbar-logo light-content">
+    <img src="../images/pip_logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/GPID-WB/pip-chartbook.git" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/GPID-WB/pip-chartbook.git"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text">Source Data</span></a>
+<span class="menu-text">Source Data</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -105,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
@@ -134,7 +149,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/25687962?515064">
 <script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -144,9 +161,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<a href="https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F17.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Download data as csv</button>
-</a>
+<button class="btn btn-primary" onclick="
+    async function downloadFile(event) {
+      event.preventDefault();
+      try {
+        const response = await fetch('data:text/csv;base64,UG92ZXJ0eSBsaW5lLHllYXIsRWFzdCBBc2lhIFBhY2lmaWMsU291dGggQXNpYSxTdWItU2FoYXJhbiBBZnJpY2EsTGF0aW4gQW1lcmljYSBhbmQgQ2FyaWJiZWFuLCJNaWRkbGUgRWFzdCwgTm9ydGggQWZyaWNhLCBBZmdoYW5pc3RhbiAmIFBha2lzdGFuIixFdXJvcGUgYW5kIENlbnRyYWwgQXNpYSxOb3J0aCBBbWVyaWNhCiQzLjAwICgyMDIxIFBQUCksMTk4MSwxMjE4NDcxMDkyLDQ2MTQwMTA2MSwyMzExODM4MTEsNzM0ODc1MzYsMTEwNTg4NTc0LDMxOTM0NjY1LDE0ODA0OTQKJDQuMjAgKDIwMjEgUFBQKSwxOTgxLDEyOTExODc5MjAsNjY4MDQxMzg1LDI4Mzk4Njg0OSwxMTIzMDA5ODYsMTQ1MDgyNTY1LDYxMjg0NjY3LDE5Mzk0NzcKJDguMzAgKDIwMjEgUFBQKSwxOTgxLDEzNzUwMzQyNTcsODA0NDc5ODc2LDM1NzM5MTA2MSwyMDYyODE5MTUsMjIwNzkyNzEyLDE3MzE0NTEwMSw0NjA4NDYzCiQzLjAwICgyMDIxIFBQUCksMTk4MiwxMjI1NTMzODI5LDQ1ODM2NTc3MywyNDIwODM0NTAsNzc1Nzc3NDksMTEyMjE3NzI1LDMyMTEyMzI3LDE4Mzg1MTIKJDQuMjAgKDIwMjEgUFBQKSwxOTgyLDEzMDgxOTAyMjAsNjc2MDYxODc0LDI5NjM3ODc1MywxMTczNjI1MDgsMTQ3NjU0MDU2LDYxMjc5NzkxLDIzMjM5MTYKJDguMzAgKDIwMjEgUFBQKSwxOTgyLDEzOTQ4ODE3ODMsODIzMTU3MzYyLDM3MDQwNDQxMCwyMTI0NTIyNDksMjI3MjYxMjI1LDE3MzgxMjQ4OSw1NDU3MzQ5CiQzLjAwICgyMDIxIFBQUCksMTk4MywxMjI2NDg2OTg3LDQ0MDIwODA4MywyNTU5MDY1MjEsOTExMjg2MjYsMTEzNjk4NzQ3LDMxNjE0OTYxLDE3MDMwMjIKJDQuMjAgKDIwMjEgUFBQKSwxOTgzLDEzMjIwNTE0NzEsNjc0MDM5MDgwLDMxMDc0MDI4NywxMzQ1ODczMzIsMTUwNTM0NjE1LDYwNDk2NTI0LDIyOTE1MDQKJDguMzAgKDIwMjEgUFBQKSwxOTgzLDE0MTQ4MTUwMzUsODQwNzA1OTI4LDM4NDI0NTY5NywyMjkwMTM5NTcsMjMzMTgxNjYzLDE3MjQ3NzE3Nyw1OTUwOTE1CiQzLjAwICgyMDIxIFBQUCksMTk4NCwxMjExNTU0ODk4LDQ0OTU1ODU2NSwyNjY3ODY3MDIsOTE3MzE2MDAsMTE1Mzk3MTM0LDMyMDE5ODY1LDE1NjcyNjgKJDQuMjAgKDIwMjEgUFBQKSwxOTg0LDEzMzA0NDIxMjQsNjg4OTk5Mzc4LDMyMjY3NjU5NiwxMzYwMDA3NTQsMTUzMjczMzQ0LDYwOTI2MTI0LDIxMDY4MDUKJDguMzAgKDIwMjEgUFBQKSwxOTg0LDE0MzQ4MDY4MjYsODU5ODE1MTgyLDM5NjU4OTQxMCwyMzMxNDYzMjAsMjM5MDMzMjY4LDE3MzMzNDY2NCw1MzUyNDU1CiQzLjAwICgyMDIxIFBQUCksMTk4NSwxMTk2ODg0MzEzLDQ1ODgwNzQwMCwyNzQ3MTI2NzcsODczMTI2NTcsMTE3NTMyODc3LDMyNDYwNDMyLDE1NjM3MjIKJDQuMjAgKDIwMjEgUFBQKSwxOTg1LDEzNDA0NTQ2MTYsNzAzNjcxOTY3LDMzMjM3MTYzNSwxMzIxMjMyNTIsMTU2NTIzMjc4LDYxMzA1MDI1LDIxNDE0NTEKJDguMzAgKDIwMjEgUFBQKSwxOTg1LDE0NTYyMDcyNjIsODc4OTA3Nzc4LDQwODQ2MDI4OSwyMzI5NDM4NDAsMjQ1MzQ0MTQxLDE3Mjg1NzY4MCw1MTkyOTUwCiQzLjAwICgyMDIxIFBQUCksMTk4NiwxMTg2MjkyMjUwLDQ3MDY1MzY3NywyODIyNTYzMTMsNjgwMDE2MDEsMTIwNTcyODc1LDMyNzkzOTE1LDE2NzM4ODkKJDQuMjAgKDIwMjEgUFBQKSwxOTg2LDEzNTAyOTE2NjMsNzIwNDY2MjgyLDM0MTYyMzAxOSwxMDgzNTU0MzQsMTYxNDM4NDI2LDYxODM5MDYzLDIxOTA3MTgKJDguMzAgKDIwMjEgUFBQKSwxOTg2LDE0NzcxMTgzNjQsODk4Njg5Njg1LDQyMDY5MzY5OCwyMTMwMzg3ODcsMjU0MDkyMTM2LDE3MzI1OTIxNyw1Mjc1MDkwCiQzLjAwICgyMDIxIFBQUCksMTk4NywxMTYyMDA5MTQ5LDQ4NjU1ODE2MywyOTA1MDk5MTgsODEyMjk0MDIsMTI0NjM3NjM4LDMyOTkzNTY1LDE0MTQ4NDAKJDQuMjAgKDIwMjEgUFBQKSwxOTg3LDEzNTQzNTk2MDEsNzQwNDI0MTU3LDM1MTkwMDY0MiwxMjQxODg3MDMsMTY3NjY0NjY2LDYxNTUyMTEwLDE5MzM4MjEKJDguMzAgKDIwMjEgUFBQKSwxOTg3LDE0OTgwMzcxNjUsOTE5MDg0NTY0LDQzMzU4MTAyMSwyMzExNjg3MjYsMjY0MDA0OTQxLDE3MTUyNTcyMSw0Njg2MTAyCiQzLjAwICgyMDIxIFBQUCksMTk4OCwxMTE0ODMyNTI1LDQ5NjEwOTI4MSwyOTkyNjkyMzAsODQ5MDgzNjYsMTI2NzczNjEyLDMyMTc5NjQzLDEyNzk5MzAKJDQuMjAgKDIwMjEgUFBQKSwxOTg4LDEzNDc0MDUwMTYsNzU2NDcxNjM1LDM2MTg5OTk4NywxMjg1MzY1MDAsMTcxNDY2MjQ1LDYwNTYzMTQyLDE3NjMwODcKJDguMzAgKDIwMjEgUFBQKSwxOTg4LDE1MTgyNTQwNTksOTM5NjcyMjM0LDQ0NTkwNTAwNywyMzcxMzA4NTcsMjcxNzM0MzQ3LDE3MDI2NTQ1Nyw0MjIyNDg5CiQzLjAwICgyMDIxIFBQUCksMTk4OSwxMjE1NjU2NTI2LDQ5OTg3MjA5NSwzMDkwOTI1ODksODMyODAzNjIsMTMwMTg1MDEzLDMyODM0MTQ5LDE0NTk5MDYKJDQuMjAgKDIwMjEgUFBQKSwxOTg5LDEzODY5MTc0NDEsNzY5MTM0MTQ2LDM3Mjg1Mjc3NiwxMjc1MDg1MDAsMTc3NDI3OTMxLDYxMjYwODAwLDE5MDEzMzcKJDguMzAgKDIwMjEgUFBQKSwxOTg5LDE1MzUxMzg5NjgsOTYwODc4ODkyLDQ1ODY1MzgwNCwyNDA0MjAyOTgsMjgxOTQ2NDMzLDE3MDgyNDE0Niw0Mjc0NjIwCiQzLjAwICgyMDIxIFBQUCksMTk5MCwxMjE4Mzg2MzM3LDUwMzQwNDk2MCwzMjA2MTg3OTUsOTEzNTY1MDQsMTMxMTgwOTg1LDM0MTc3Mzc0LDE1MTExMzIKJDQuMjAgKDIwMjEgUFBQKSwxOTkwLDEzOTk5MjM5MTIsNzgxNjM4ODkzLDM4NDk3MDM3MCwxMzcxMDkwNjUsMTc3NzcxMTgxLDYzNzQ0NTY3LDE5NDEwMDYKJDguMzAgKDIwMjEgUFBQKSwxOTkwLDE1NTU1MTY2ODUsOTgyMjE1ODczLDQ3MTg0ODk2MywyNTMxODI0NDYsMjg0NjY1ODIyLDE3NzA1OTkyMiw0MzM4NzAwCiQzLjAwICgyMDIxIFBQUCksMTk5MSwxMjE3MTg2ODk2LDUxMzc0MDYzNywzMzYxNTA5MzcsOTAxMTk1MzcsMTI2MDI3MjQ1LDM4NTU4MTAyLDE2NTMzNjQKJDQuMjAgKDIwMjEgUFBQKSwxOTkxLDE0MDgxMzQ0ODEsNzk4NDEyODc2LDM5OTU4MzcyOSwxMzY1MTM1NTMsMTgxOTcxNzg0LDcwNzIzNDgxLDIxNTM2NDUKJDguMzAgKDIwMjEgUFBQKSwxOTkxLDE1NzQxMzE4NjYsMTAwNDM3OTQwMyw0ODYxODE1MzEsMjU2Mzg4NDQ1LDI5NDk0ODMzMywxOTAzNTQ4MDgsNDgwNjk1OAokMy4wMCAoMjAyMSBQUFApLDE5OTIsMTIwNDEzNzk2OSw1MTczMzI3NTYsMzUxMzMxOTAzLDkyMzI4MTQ4LDExNDQ0MDY2Myw0NzAyOTQ2MCwxNjc0OTI2CiQ0LjIwICgyMDIxIFBQUCksMTk5MiwxNDA2NjEyNDE3LDgxMDY5NTAxMSw0MTUxMDM1NDUsMTM4MzI2OTA4LDE3NzE4MTM5Nyw4MzMwMTc3NCwyMjIyMDIzCiQ4LjMwICgyMDIxIFBQUCksMTk5MiwxNTkwNjc0ODM2LDEwMjU4NjIzNjMsNTAxMTI1OTA0LDI2MjkwMTE5MSwyOTk0MzU1NTksMjExNjEzMjg0LDU0MzkyMzMKJDMuMDAgKDIwMjEgUFBQKSwxOTkzLDExODk3ODM4NTAsNTE5NDY4MjU3LDM2NTA2MTMxNSw5MzczMzA1MSwxMTgxNzIwMTcsNTIyNDA4MDIsMTg4NTAxMAokNC4yMCAoMjAyMSBQUFApLDE5OTMsMTQwMTA4NTI1Myw4MjA3Mjc5NjYsNDMxMTE0NzcwLDE0MTgwMzY3NCwxODE1Mzc5NjgsOTQ0MTE3NzcsMjM0ODQwNAokOC4zMCAoMjAyMSBQUFApLDE5OTMsMTYwNTY5MTg4MCwxMDQ2NzU1ODI2LDUxODU2NTQyMiwyNjYwNjMyMzYsMzA3MDA3MTU0LDI0MDg3OTc0Nyw1MzkyOTc1CiQzLjAwICgyMDIxIFBQUCksMTk5NCwxMTM0NjQyODQ1LDUyMjUzMzM5OCwzNzUyNDc3ODQsOTIxMzE5NzgsMTEwMTIwODQwLDY1MTIyNjIwLDE5NTY4MzYKJDQuMjAgKDIwMjEgUFBQKSwxOTk0LDEzNzYwMTYxNjEsODMwODM4MTk5LDQ0MzM0MTEwNCwxNDAzMDE5NDksMTgwMjk5NzkwLDExMzMwNjcyMiwyNDU4MDMyCiQ4LjMwICgyMDIxIFBQUCksMTk5NCwxNjE1NzI3MTE3LDEwNjY0NTM1MjksNTMzMTU5Njg3LDI2NTAzNjYzNCwzMTM4NzIxODEsMjYwNDQ2NjY0LDUxNTQwNzkKJDMuMDAgKDIwMjEgUFBQKSwxOTk1LDEwODE4OTM5NzgsNTI5Mjk5OTU4LDM4NDM1MzI2Miw4OTE4MzgzNSwxMTEyNDEzNDAsNjI1OTYyOTYsMTg1NDQ1OQokNC4yMCAoMjAyMSBQUFApLDE5OTUsMTM1MjUzMDQzMSw4NDM2NTE1NjksNDUzOTc5MDU0LDEzODUyNTU1MCwxODQzNjQ0NDYsMTAyMzI5NTUxLDI0MDMwMTUKJDguMzAgKDIwMjEgUFBQKSwxOTk1LDE2MjgyMDczOTcsMTA4NTQwNTY3NSw1NDY1MDUzNTIsMjY1MzgzMzA0LDMyMjM4MzM0MCwyMzQwODUyNzksNDk3MjU0OQokMy4wMCAoMjAyMSBQUFApLDE5OTYsMTAyMjM3MDc1MSw1MzYyMzQwNDQsMzkxMTYwNzcwLDk3MjEzNDAyLDEwMzkzMTg3MSw2NDIyNDU5NCwxNzg4OTgwCiQ0LjIwICgyMDIxIFBQUCksMTk5NiwxMzE2NDc1NTAwLDg1NzQ2MTc4NSw0NjQzNTY2NDIsMTQ2MDEyODE1LDE4MTE5NDMwMSwxMDg0OTM0NzEsMjI1MDY4NAokOC4zMCAoMjAyMSBQUFApLDE5OTYsMTYzMjEwMTcxNiwxMTA1MzI1NjUzLDU1OTY2NjM3NywyNzM0Nzg5NTcsMzI1NjM1MzAzLDI1MTk3ODk0OSw0NTQ5MTQxCiQzLjAwICgyMDIxIFBQUCksMTk5NywxMDE5NDcxNzQ3LDU0NjEwMzY4MywzOTkxNjQwMzcsOTY1ODk3NjUsMTA0Njc3MTU0LDU4Nzk4OTQ3LDIwMjI0MjMKJDQuMjAgKDIwMjEgUFBQKSwxOTk3LDEzMTExMTI0MDEsODcxNjM4MTg0LDQ3NTk3ODEwOCwxNDU0MDE4MjYsMTgxODIxNTM3LDk4OTM4MzQ0LDI0MzM4ODUKJDguMzAgKDIwMjEgUFBQKSwxOTk3LDE2NDI4NDg2NjgsMTEyNTY0NzYxNyw1NzM5MDkxNjYsMjcyNjc2NTI0LDMyODU0MTQ5MCwyMzk0NzQ4NDAsNDk3OTM5NQokMy4wMCAoMjAyMSBQUFApLDE5OTgsMTAzODIxNTg2NCw1NTU3MjU1NDQsNDA5NjA0MDg5LDk2ODQxODg0LDEwOTIyNzgwNiw2MDgxNDkyMSwyMzUwMjk4CiQ0LjIwICgyMDIxIFBQUCksMTk5OCwxMzIxNjYwMDQ4LDg4NjA3ODYyMSw0ODk5ODQ0NjcsMTQ0NTc5NjM3LDE4MjY1Mjc5MiwxMDIzMDc4ODEsMjc3Mzk3NwokOC4zMCAoMjAyMSBQUFApLDE5OTgsMTY2MDM5Mjk2NywxMTQ2MDg1Nzg4LDU5MDQyNjYyMCwyNzQzMTI3MzMsMzI2OTU5MDUwLDI0MDg0MjMxOSw1MTYzNTY4CiQzLjAwICgyMDIxIFBQUCksMTk5OSw5OTc2ODk2MjMsNTYxODUyMTUwLDQxODYxNjc5Myw5OTc2NjYxMiwxMTMxMTI1MzgsNzU3MzU1NzksMjAyODQ3NQokNC4yMCAoMjAyMSBQUFApLDE5OTksMTI5OTc4Mjc4Niw4OTg2NTkwNDcsNTAzOTYyMjU0LDE1MDMwODM3NywxODYxNDAzMTgsMTI3NDk3MDIyLDI0MTAxODAKJDguMzAgKDIwMjEgUFBQKSwxOTk5LDE2NjgyNjMwNTEsMTE2NjI4NzQ4NSw2MDc3MjE4MzgsMjgyNDExOTAyLDMzMTM3ODQ1NiwyNzQ4OTczOTgsNDY1MjIwMQokMy4wMCAoMjAyMSBQUFApLDIwMDAsOTU1MTM2NjU0LDU3MDQxMzU5NSw0MjUyNTEzMzMsOTQwMzIyMzEsMTE3OTI4NTgyLDY2MDI3MzAwLDIxMTQxMjcKJDQuMjAgKDIwMjEgUFBQKSwyMDAwLDEyNjE4OTkyNzEsOTEyNzMwMzEzLDUxNTMyODU1NiwxNDIyNTk4ODAsMTkwMzI5MzE4LDExMDU4NDgyMSwyNTc0NTAwCiQ4LjMwICgyMDIxIFBQUCksMjAwMCwxNjYzNzk4ODEzLDExODY3OTY5OTQsNjI0NDAzNDE2LDI3NjI1NDk2OCwzMzQyNzY3NjksMjU4MDQ3MDAxLDQ4MjY0NDQKJDMuMDAgKDIwMjEgUFBQKSwyMDAxLDkxMTUwMzU5Niw1Nzk5OTYzMDQsNDI4NDY3MTQ0LDk0NDAwMjU0LDEyNDUyODYyOSw2MDE3NzY4OCwyNjA1NzM4CiQ0LjIwICgyMDIxIFBQUCksMjAwMSwxMjIxMjcyMDcxLDkyODE4ODg3Nyw1MjQwODA1NTUsMTQzNjQ2NTYxLDE5ODAyOTA5MywxMDAxMjMwMDcsMzE3NjY1NQokOC4zMCAoMjAyMSBQUFApLDIwMDEsMTY1Mzk2MTI3NSwxMjA3Njk0MTMwLDY0MDAzNzM4OCwyNzY4NjQ1ODYsMzQzMjk3NTQxLDI0MzUxNDY0Miw1NDcxODk1CiQzLjAwICgyMDIxIFBQUCksMjAwMiw4MzUxNDk5MjIsNTg5NzE1OTcwLDQzNzI5NjQzOSw5MTQzODM5OSwxMjUyMDM0NTQsNTM1OTkzMjcsMjQ5NDQ1NgokNC4yMCAoMjAyMSBQUFApLDIwMDIsMTE1ODA3ODg1OSw5NDI2Mzk2NjAsNTM2MzIxMDQzLDE0MzM5Njc5MywyMDA2NzAxMzcsODk3OTk2NzgsMjk5MjU2MwokOC4zMCAoMjAyMSBQUFApLDIwMDIsMTYzMTk3MjE1MywxMjI3ODEzODUwLDY1NjYzMTM1NywyODE4MDM5NzcsMzUwNTcyNDQ2LDIyOTU1NjE4Miw1NTk1MjY0CiQzLjAwICgyMDIxIFBQUCksMjAwMyw3NjIxNTUyNjcsNTk0NjEzNjYxLDQ0MTkxMzMzOCw4OTc3NTI1OCwxMTc4NDA3NTMsNTE4MjM4MTYsMjkyMzc1MgokNC4yMCAoMjAyMSBQUFApLDIwMDMsMTA5NDQwMTEyNCw5NTM2NjE2NzYsNTQ3ODE5OTA2LDE0MDE5NTczMSwxOTg3MDEyOTEsODQ2MTU0NTgsMzQxNDgyNwokOC4zMCAoMjAyMSBQUFApLDIwMDMsMTYwOTc3MzUzMCwxMjQ2NDU4OTMyLDY3NTExMzUzMiwyODE4MjgwMzAsMzYwMjk4NzAwLDIyMTc3NjM0Nyw2MTIzNDIwCiQzLjAwICgyMDIxIFBQUCksMjAwNCw2OTcwOTc3MjQsNTk2NTA1MzgxLDQzMTYyODc2MSw4MzgwMDI2NCwxMDgyMDk2NTEsNDQ1NjgzOTgsMzA1MTgyNwokNC4yMCAoMjAyMSBQUFApLDIwMDQsMTA0MTA5OTYzOSw5NjIyNjAzNjgsNTQ3OTE5MjY0LDEzMzM3NjkxNiwxOTAxNjQ4NzgsNzIyMDExNDgsMzU3MTk1MwokOC4zMCAoMjAyMSBQUFApLDIwMDQsMTU4NDQ4OTA1MywxMjY0NjI4ODY0LDY5MDQwNTM5OCwyNzc0MTEzODYsMzU0ODA3NTc1LDE5ODA3NTQ5NCw2MjAxMTE4CiQzLjAwICgyMDIxIFBQUCksMjAwNSw2MTY2MDE4OTEsNTgzODQ3NTM0LDQzMTU1MjM3OSw3OTAxMzg4MCwxMDQ3ODYzNTIsNDQwODc2NDgsMzAyOTA2NAokNC4yMCAoMjAyMSBQUFApLDIwMDUsOTcwMzAzMzM0LDk2MTY2NjA2OCw1NTI3MDI0OTQsMTI2MjMyNjI4LDE5MDI1Nzg2NSw2ODI0MzMyMCwzNDg0NzAzCiQ4LjMwICgyMDIxIFBQUCksMjAwNSwxNTUxOTkwODY1LDEyODA5MzYzMjgsNzA2NzYxMzAzLDI2NjYyNDI3MCwzNjEwOTg3MDIsMTgxMzM3NTM2LDYxNDg3MzcKJDMuMDAgKDIwMjEgUFBQKSwyMDA2LDU5NjI4NjkxMiw1NTY3MjA0NzgsNDM0ODc1Nzk3LDY3MzcyMjAwLDEwMDU1ODQ3MCwzODc3NzM3MCwzMDk2Njk0CiQ0LjIwICgyMDIxIFBQUCksMjAwNiw5MzU1NDg3MTQsOTUxMjA1NTE3LDU2MTM5NTEwMiwxMTEwODc4MDcsMTg5NDQ4OTc0LDU5MTc3MTc3LDM1Mzg4NjAKJDguMzAgKDIwMjEgUFBQKSwyMDA2LDE1MjMwMDIxMjQsMTI5NTY4NzUzNyw3MjMxODQ1MjYsMjQ5NDgyNTc3LDM2NjgxOTQ3OSwxNjMzNTYxMjgsNjE3NTMyNQokMy4wMCAoMjAyMSBQUFApLDIwMDcsNTQxOTA2OTM1LDUyODU4Njk3NSw0MzczNzU1ODUsNjExOTkyMTYsOTc2ODg3MjksMzU1NjcyOTEsMzAzODEwMAokNC4yMCAoMjAyMSBQUFApLDIwMDcsODczMjIxMDczLDkzODQwODgxNiw1Njk1MTQyOTksMTAzNjIzNjM2LDE4ODkyNTYwNCw1Mjg2MTgzNSwzNDk2MjY5CiQ4LjMwICgyMDIxIFBQUCksMjAwNywxNDc4MzQyOTkwLDEzMDk4MTcxMDUsNzM5OTIwMzU0LDI0MDI5MTY2MiwzNzIwOTQwOTIsMTQ0NzQ4MzYxLDU5OTQxNzgKJDMuMDAgKDIwMjEgUFBQKSwyMDA4LDUxMDYxNTM0NSw1MTc5OTIwMjMsNDM5MTIyMDk0LDU2OTExMTM3LDg3ODIwMDgyLDMzMDA3NzM0LDMyOTk4NjUKJDQuMjAgKDIwMjEgUFBQKSwyMDA4LDgzNjEyMzU2OCw5Mzc4MDQ2OTUsNTc3MTMwODM4LDk4MDcwODM3LDE4MjEwMTc3NSw0NzI3Nzg5NywzODAxMTM5CiQ4LjMwICgyMDIxIFBQUCksMjAwOCwxNDUxNzgzMjM2LDEzMjU0MDk5NDcsNzU2OTA1NjY5LDIzMTc1MDQ2MiwzNzU2NzE3OTAsMTI0NDM1MDY4LDY0NDM2NDMKJDMuMDAgKDIwMjEgUFBQKSwyMDA5LDQ2OTYxMjQ5Miw0OTMzMjAxNjksNDQ3MzEzMjYxLDU1Mjk4NDc1LDkzMjg3MzM2LDMzMTk4MjU5LDI5NDczNTEKJDQuMjAgKDIwMjEgUFBQKSwyMDA5LDc4NTQ1NDMyMCw5MjYxOTk2NjQsNTg5NzYzOTQ0LDk2Mjk3ODgzLDE4NjQzMTQwNSw0NzAzMjM0OCwzNDU1MDAwCiQ4LjMwICgyMDIxIFBQUCksMjAwOSwxNDA2NjgyOTM3LDEzMzk0OTg3MTAsNzc3Mzg3MDY2LDIzMjc3NTYwOCwzODAyOTM5NzMsMTI3NzA4OTc2LDU5MjcxNTIKJDMuMDAgKDIwMjEgUFBQKSwyMDEwLDQxNzQ4OTM3OCw0MzkyNzI5OTUsNDQxOTg2ODI5LDQ5ODI5NjgyLDgzNTI4NTYwLDMzNTc4MzkzLDM0NTcyNDQKJDQuMjAgKDIwMjEgUFBQKSwyMDEwLDcxNjE2MzYyNCw4ODM1NjQyMzMsNTkyMTEzMDQyLDg4MTQ1NzU3LDE3NzY3NTcyOSw0NjkwMjI3NSwzOTcyNjUzCiQ4LjMwICgyMDIxIFBQUCksMjAxMCwxMzQwODM5NDIxLDEzNDU1MjU5NDMsNzkzMjU3MzUxLDIyNDExNDIyNywzODI4MTgwMzEsMTIxODM3Nzk4LDY5MzQ2MTAKJDMuMDAgKDIwMjEgUFBQKSwyMDExLDM0MDU4MTM3OCw0MDM0ODA2MzcsNDQ1MTUyNjcxLDQ1ODg0NjUwLDgyOTA3MzU3LDMyNDMxODQ2LDMzMzc1NzAKJDQuMjAgKDIwMjEgUFBQKSwyMDExLDYzMjU1MTcxNCw4NDM2MDQ4MzcsNjAwNzgxMzYwLDgxNjAyOTczLDE3NjY5ODI0MCw0NTU0ODAwOSwzOTY5NzAwCiQ4LjMwICgyMDIxIFBQUCksMjAxMSwxMjgyNTMzMzAwLDEzNDcwOTkxMDAsODEyNjc2MjI2LDIxNDQwMDA3MSwzODgwMTkyMTUsMTE1NDc1MjA1LDcxNDU5NzIKJDMuMDAgKDIwMjEgUFBQKSwyMDEyLDI5Nzg5NDU4MiwzNzQzNDE4MzcsNDQ1NjgyNDQyLDQ1MDcxNTQxLDgwMjUyMTczLDMyNjYzMzQ5LDMzOTc4NjAKJDQuMjAgKDIwMjEgUFBQKSwyMDEyLDU3MTEyNjExNSw4MTM3NTMyNDIsNjA4NTYwMzQ2LDc5NDIzMzYyLDE3MzE3Mzk3MSw0NTY1MzY1MCwzOTUxMjQwCiQ4LjMwICgyMDIxIFBQUCksMjAxMiwxMjIxMjAwMDQ0LDEzNTI4MjAwNDEsODMyNTg1MTUzLDIwOTc2Nzg5NSwzOTE1Nzc2NjQsMTEzNjM3MjQzLDY5MjkzMzUKJDMuMDAgKDIwMjEgUFBQKSwyMDEzLDIwMzc2MjYxNCwzNDIxNjY1MjAsNDQ4MTEyOTYxLDQxNDI0NTg0LDc3NjMyNzQ4LDk5Njc3NTYsMzQzMjQ4MAokNC4yMCAoMjAyMSBQUFApLDIwMTMsNDU0NTM0NTYzLDc4Mzk5MTQxMCw2MTYwODEzOTMsNzU0OTEzMzgsMTcxNTM3MzE3LDIyNTM3MDE4LDQxMTY4NTYKJDguMzAgKDIwMjEgUFBQKSwyMDEzLDExMzMzNTExMTIsMTM2MDc2NzA3Niw4NTIxMTkyNTMsMjA1MzgzMzk5LDQwMTg3MDQ4Nyw5NjE1MTgzNyw2ODU3ODA3CiQzLjAwICgyMDIxIFBQUCksMjAxNCwxNzcyOTgzMDQsMzA0NDMwMTMxLDQ1MjE0MzYzMywzOTcyODkwMCw3ODIzMTI2OCwxMDkyMDUyMSw0MTM5NjAyCiQ0LjIwICgyMDIxIFBQUCksMjAxNCw0MDYzNDI2NDUsNzQ0MTI4NjI4LDYyNDQwNDE5OSw3MzEzMjQ1OSwxNzI1NzQzODYsMjM4NjYyOTAsNDc2MjEwOAokOC4zMCAoMjAyMSBQUFApLDIwMTQsMTA2NTMzOTE4NiwxMzY2MDAyODIxLDg3MTY3OTA1NywyMDQyNjI5MzIsNDA4NzE1ODEzLDk1NzcxMTI2LDc1NTAxNzMKJDMuMDAgKDIwMjEgUFBQKSwyMDE1LDEzOTM3ODMyMCwyNjMzMTk3MDMsNDY1MTMyMTcxLDM3NDI1NjY3LDc4NjY1Mjg3LDEwOTQ3OTEwLDM5MjA1ODIKJDQuMjAgKDIwMjEgUFBQKSwyMDE1LDM0OTA4ODE2MCw2OTU1OTUwMzEsNjQwNjM5Nzg2LDY4Njc0OTY3LDE3MzAzODA5NCwyMzQ4NDM4OSw0NTA1MTYzCiQ4LjMwICgyMDIxIFBQUCksMjAxNSwxMDAyOTc4OTM2LDEzNjcyMjIxMzcsODk1ODExMjc1LDE5NTUzOTQ5NCw0MTAxMzE2NjEsOTg2MjM3OTUsNzU0NDM1NwokMy4wMCAoMjAyMSBQUFApLDIwMTYsMTE2MjE1OTI3LDIyMzQ2NjE2Nyw0NzUyMDI3OTYsMzg4MTIwMjEsODAyMDQ4NzksOTAxNDAzOCwzNzQxMTI4CiQ0LjIwICgyMDIxIFBQUCksMjAxNiwzMDI3MDUwNzQsNjQxOTI4MzMyLDY1NDIxNzU3NCw2OTkwNDUzMSwxNzc2NDczNzksMjAzNzA0NDEsNDMxMDYyMwokOC4zMCAoMjAyMSBQUFApLDIwMTYsOTQ0MDExNjgyLDEzNjQ1MzA2ODQsOTE5NTM0OTk2LDE5NjEyNDA3NCw0MTg2MjAzMTQsOTUzMzkzNTIsNjk0MDA3NgokMy4wMCAoMjAyMSBQUFApLDIwMTcsOTY1NTQ5MDUsMTg3ODU4MjExLDQ4MjA1OTkzMywzODgxNDI5OSw3OTQ5NDE1NCw5MDYyMDk2LDQxNTQzMzYKJDQuMjAgKDIwMjEgUFBQKSwyMDE3LDI3MzI1NDI1OCw1ODcyMDAxMzAsNjY2MjYzMTYzLDY5MTc0MTc4LDE3ODQzMTY0OCwxOTU2NjA3Nyw0NzU2OTcxCiQ4LjMwICgyMDIxIFBQUCksMjAxNyw5MDI0ODgyNTYsMTM1ODI5OTE3Niw5NDI3ODM2MzUsMTk1MTMzOTkyLDQyNDg5NTc0NSw4ODM1NDM3OSw3Mzk3ODgwCiQzLjAwICgyMDIxIFBQUCksMjAxOCw3NzE1MzQ2NiwxNTgwMjQ1MjAsNDg5ODk3MTIxLDM4NzM4OTQ0LDgwNzU0MDQ4LDc2NTkxNTIsMzYxNzQ3OQokNC4yMCAoMjAyMSBQUFApLDIwMTgsMjMzNDYwNjM3LDUzMzI0MTM4MSw2ODA5MTU4NjQsNjg3MjUxNTAsMTgxNDg2NDI0LDE3MDM3MzQzLDQxOTg3NDEKJDguMzAgKDIwMjEgUFBQKSwyMDE4LDg0MTMyMzYxMCwxMzQ5NTYzODI5LDk2OTAxMDU2NSwxOTM5MjMzODksNDM0MzIyMTk0LDgyMTUxMzc1LDY1ODA4MzQKJDMuMDAgKDIwMjEgUFBQKSwyMDE5LDYwOTU4Mjg1LDEzOTg5MDM1NCw0OTk4NTIzNTIsMzk2MTQ0ODcsODY0MzE0NjYsNzEwMTk3OSwzMzE3OTM3CiQ0LjIwICgyMDIxIFBQUCksMjAxOSwxOTEzNTExODIsNTAwOTM3NTYwLDY5ODg2NTQ1Myw2OTE2Mjk0OSwxODkxNzQ3NjAsMTYyNDkxMzgsMzgwMTM2MQokOC4zMCAoMjAyMSBQUFApLDIwMTksNzkxMzQ4MDA3LDEzNDg3OTAwODksOTk1OTYzODc4LDE5MzcxNDk1Nyw0NDUwNDI1ODAsNzg0NDMwMzIsNjAxNTgwNwokMy4wMCAoMjAyMSBQUFApLDIwMjAsNjQ1MjU0NzQsMTUyMjIxMDI4LDUzNzYyMzQ5OSwzNzU5Mjk2NSw5NTMzNDgwMyw3ODMyNTYwLDExMjI3MzQKJDQuMjAgKDIwMjEgUFBQKSwyMDIwLDE3NjgyNzUzNyw1MjkwNDIyNDQsNzQ0MDIwNzE2LDY3MjE0ODk4LDIwMTAzNzk3NiwxNzE2NzE3NiwxNTYwNTY0CiQ4LjMwICgyMDIxIFBQUCksMjAyMCw4MDkwODEyNjAsMTM3NTQ5MTA4NywxMDM1NjMwOTE0LDE5NjY0MTAwNyw0NjU1MzM1OTgsNzUxMzMwNzQsNDc3NTI2NgokMy4wMCAoMjAyMSBQUFApLDIwMjEsNjIyNTE4ODQsMTI4NjYxNjA5LDU1MzQwOTU3Miw0MDU3NTM3MSwxMDMxMzIxNjEsNzM5NzgwMCwxMDA5NTg3CiQ0LjIwICgyMDIxIFBQUCksMjAyMSwxNTQ1NzM2MzMsNDgyMTkxNDM3LDc2ODMwMTM5Nyw2OTkyMDMzMiwyMDYyOTk5NTQsMTUwNjM1ODIsMTg3NTU2MQokOC4zMCAoMjAyMSBQUFApLDIwMjEsNjkzMzU5MjU1LDEzNjQwODk5MjEsMTA2NDc2NDE5MywyMDE1MzY1NjcsNDY3Mzg0NTAwLDY1Mjk4NTQ0LDM1MzI3OTQKJDMuMDAgKDIwMjEgUFBQKSwyMDIyLDU3MzgyMTUzLDEwMTAwOTQyOSw1NjA3MTc5MDgsMzI5NjY2MTMsMTA1MjgxOTA4LDY5NjU1OTQsNDQ5Mjc0MQokNC4yMCAoMjAyMSBQUFApLDIwMjIsMTUyOTg4OTU5LDQxOTA4ODYwNyw3ODIzNzYwMDEsNjAwNDgyOTAsMjA2NzI1NDg5LDEzOTc2MTY2LDUwNDM1NzAKJDguMzAgKDIwMjEgUFBQKSwyMDIyLDcwNDk2MjExMywxMzQwODMxNzgwLDEwOTA2NzUzNDgsMTgyODA0OTUyLDQ2NzA2NjU0Niw2Mjg4MDk4MSw3MzkyNTA1CiQzLjAwICgyMDIxIFBQUCksMjAyMyw1MjEwODU4NSw2NzY3NTkyNCw1NzM2NzM2ODgsMzA0MDQwNjksMTEwNzE3ODY0LDYwNDA2NTUsNDA2MDQ5MwokNC4yMCAoMjAyMSBQUFApLDIwMjMsMTM4NTM3MzYzLDMzMTYwMjI3Miw4MDI2MTQ2ODMsNTY3NTIxMDAsMjEyMzI4NzM4LDExNjU2MDEzLDQ1OTk3ODAKJDguMzAgKDIwMjEgUFBQKSwyMDIzLDY1OTE1MzU5NiwxMzE0OTY2ODk4LDExMTkzMDg3MDcsMTc0MjA0NDE2LDQ3Mjg0OTc0NSw0ODk4NzcyMiw3MDA4MzQ3CiQzLjAwICgyMDIxIFBQUCksMjAyNCw0NzE2MTQ2Nyw0MjkwNzM3Niw1ODA2MjgwNjEsMjgzNTI3NjIsMTE2NDMxNjc2LDUyNDAwNTUsMzU3Njk3MwokNC4yMCAoMjAyMSBQUFApLDIwMjQsMTMwMzgzOTY5LDI1MTU3Njg3OCw4MTU3OTA1MjcsNTI3OTQ5MTgsMjE4MTEwMDA0LDEwMDQ3MTA1LDQwODgyMzAKJDguMzAgKDIwMjEgUFBQKSwyMDI0LDYzMTMyNTE2MSwxMjg5MDcyNzE1LDExNDQwMDcxNzcsMTYzMzkyMDA1LDQ3OTUxMjIwMiw0NDQ3Nzc4OSw2MzIwODE2CiQzLjAwICgyMDIxIFBQUCksMjAyNSw0MTQ5Njk4MSwzNTEyNjg4OCw1ODM3NTY5MDIsMjc0Mzk4NjEsMTIwNjM2ODQwLDQ5MDI2MjcsMzU3ODA0MwokNC4yMCAoMjAyMSBQUFApLDIwMjUsMTE3MzQyNjE2LDIxNDc2MzA2Nyw4MjQ5Njk5MzUsNTEyNTA4NzAsMjIyNjg0NzIxLDkxOTAyMDcsNDA5MTk4MwokOC4zMCAoMjAyMSBQUFApLDIwMjUsNTk2OTQ1MjUzLDEyNTcxODQ2OTYsMTE2NzUzODU2NywxNjExNjMyNzksNDg1MDUzODU0LDM5NzI5MjUxLDYyODQ5NjcKJDMuMDAgKDIwMjEgUFBQKSwyMDI2LDM4OTAyMDkzLDI4ODExOTM4LDU4NjIyMTg2OSwyNzE2MzkyNCwxMjE1OTI4OTQsNDY3NjIxNSwzNTc3ODQ0CiQ0LjIwICgyMDIxIFBQUCksMjAyNiwxMTEwNjQ2OTYsMTgzNDAwOTI5LDgzMjg1MTk0Miw1MDY1MzY5NCwyMjQ4MTY5MjcsODc1NDY4Miw0MDc3MTEwCiQ4LjMwICgyMDIxIFBQUCksMjAyNiw1NzE0ODgwNDAsMTIxOTM1MzY5NCwxMTkxMDcxNzc2LDE1OTMxODI2MSw0OTE4NjE4MTYsMzgxMTM5NDksNjIyNzA2Mgo=');
+        if (!response.ok) throw new Error('Network response failed');
+        const blob = await response.blob();
+        const blobUrl = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = blobUrl;
+        a.download = 'chartbook_F17.csv';
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.dispatchEvent(new MouseEvent('click'));
+        document.body.removeChild(a);
+        setTimeout(() => {
+          window.URL.revokeObjectURL(blobUrl);
+        }, 100);
+        return false;
+      } catch (error) {
+        console.error('Download failed:', error);
+        alert('Download failed. Please try again.');
+      }
+    }
+    downloadFile(event);
+  "><i class="fa fa-save"></i> Download data as csv</button>
 </div>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
@@ -160,43 +200,58 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -204,204 +259,361 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2026 Poverty &amp; Inequality Platform</div>   
+    <div class="nav-footer-left">
+<p>© 2026 Poverty &amp; Inequality Platform</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><a href="https://www.worldbank.org"><img src="..\images/wbg_logo.png" height="30"></a></div>
+    <div class="nav-footer-right">
+<p><a href="https://www.worldbank.org"><img src="..\images/wbg_logo.png" height="30"></a></p>
+</div>
   </div>
 </footer>
+
 
 
 
