@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -159,35 +155,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25383474/thumbnail" alt="chart visualization" width="100%">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,Q291bnRyeSxTdWItU2FoYXJhbiBBZnJpY2EsU291dGggQXNpYSxFYXN0IEFzaWEgYW5kIFBhY2lmaWMsTGF0aW4gQW1lcmljYSBhbmQgdGhlIENhcmliYmVhbiwiTWlkZGxlIEVhc3QsIE5vcnRoIEFmcmljYSwgQWZnaGFuaXN0YW4gYW5kIFBha2lzdGFuIixOb3J0aCBBbWVyaWNhLEV1cm9wZSBhbmQgQ2VudHJhbCBBc2lhClByb3NwZXJpdHkgR2FwIHNoYXJlLDQwLjk0LDIwLjY0LDE2LjM0LDUuNDQsMTIuMzYsMS4yLDMuMDkKUG9wdWxhdGlvbiBzaGFyZSwxNi4zNiwyMC42MiwyOC44OCw4LjEsMTAuMTUsNC42NSwxMS4yNAo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F9.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,Q291bnRyeSxTdWItU2FoYXJhbiBBZnJpY2EsU291dGggQXNpYSxFYXN0IEFzaWEgYW5kIFBhY2lmaWMsTGF0aW4gQW1lcmljYSBhbmQgdGhlIENhcmliYmVhbiwiTWlkZGxlIEVhc3QsIE5vcnRoIEFmcmljYSwgQWZnaGFuaXN0YW4gYW5kIFBha2lzdGFuIixOb3J0aCBBbWVyaWNhLEV1cm9wZSBhbmQgQ2VudHJhbCBBc2lhClByb3NwZXJpdHkgR2FwIHNoYXJlLDQwLjk0LDIwLjY0LDE2LjM0LDUuNDQsMTIuMzYsMS4yLDMuMDkKUG9wdWxhdGlvbiBzaGFyZSwxNi4zNiwyMC42MiwyOC44OCw4LjEsMTAuMTUsNC42NSwxMS4yNAo=" download="chartbook_F9.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: Regional contribution (percent) to the Global Prosperity Gap in 2026, compared with the regional population shares. The label values may not add to 100 percent due to rounding. The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars). See <a href="https://openknowledge.worldbank.org/entities/publication/66f2dcfb-ce37-47fe-a99b-3a70e7b9dd60">Kraay et al (2023)</a> for more details.</p>

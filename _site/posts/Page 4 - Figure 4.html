@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -161,35 +157,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25069678/thumbnail" alt="chart visualization" width="100%">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,eWVhcixPYnNlcnZlZCxDdXJyZW50IGZvcmVjYXN0ICsgaGlzdG9yaWNhbCBncm93dGgsMiUgZ3Jvd3RoLDIlIGdyb3d0aCArIEdpbmkgcmVkdWN0aW9uIDElLDIlIGdyb3d0aCArIEdpbmkgcmVkdWN0aW9uIDIlLDQlIGdyb3d0aAoyMDEwLDIwLjk4LCwsLCwKMjAxMSwxOS4xLCwsLCwKMjAxMiwxNy44MywsLCwsCjIwMTMsMTUuNSwsLCwsCjIwMTQsMTQuNTEsLCwsLAoyMDE1LDEzLjQyLCwsLCwKMjAxNiwxMi41NywsLCwsCjIwMTcsMTEuNzksLCwsLAoyMDE4LDExLjEyLCwsLCwKMjAxOSwxMC43NiwsLCwsCjIwMjAsMTEuNDEsLCwsLAoyMDIxLDExLjMzLCwsLCwKMjAyMiwxMC44OSwsLCwsCjIwMjMsMTAuNjIsLCwsLAoyMDI0LDEwLjQsLCwsLAoyMDI1LDEwLjIsLCwsLAoyMDI2LDkuOTgsOS45OCw5Ljk4LDkuOTgsOS45OCw5Ljk4CjIwMjcsLDkuNTksOS43LDkuNTQsOS4zOSw5LjQ4CjIwMjgsLDkuNDMsOS42MSw5LjMxLDkuMDQsOS4xOAoyMDI5LCw5LjI5LDkuNTIsOS4wOSw4LjY3LDguODgKMjAzMCwsOS4xNSw5LjQ0LDguODcsOC4zMSw4LjU2CjIwMzEsLDkuMDMsOS4zNCw4LjYsNy45Nyw4LjI3CjIwMzIsLDkuMTQsOS4yNSw4LjM3LDcuNjUsNy45OQoyMDMzLCw5LjIzLDkuMTUsOC4xNiw3LjM0LDcuNzEKMjAzNCwsOS4zNSw5LjA0LDcuOTQsNy4wNSw3LjQ1CjIwMzUsLDkuNDYsOC45NSw3LjcyLDYuNzQsNy4xOQoyMDM2LCw5LjU2LDguODUsNy41Myw2LjQ1LDYuOTMKMjAzNywsOS42OSw4Ljc2LDcuMzEsNi4yMSw2LjcKMjAzOCwsOS44Miw4LjY2LDcuMDgsNS45NCw2LjQzCjIwMzksLDkuOTUsOC41Nyw2Ljg4LDUuNzIsNi4yCjIwNDAsLDEwLjA4LDguNDUsNi42OSw1LjQ5LDUuOTkKMjA0MSwsMTAuMjIsOC4zNyw2LjQ4LDUuMjksNS43NwoyMDQyLCwxMC4zNSw4LjI4LDYuMyw1LjExLDUuNTYKMjA0MywsMTAuNDcsOC4xOCw2LjEyLDQuOTQsNS4zNwoyMDQ0LCwxMC41OCw4LjA3LDUuOTQsNC43Niw1LjE1CjIwNDUsLDEwLjcxLDcuOTcsNS43Nyw0LjU4LDQuOTUKMjA0NiwsMTAuODQsNy44Nyw1LjU5LDQuNDMsNC43NgoyMDQ3LCwxMC45OSw3Ljc4LDUuNDMsNC4yNyw0LjU1CjIwNDgsLDExLjExLDcuNjksNS4yOSw0LjExLDQuMzgKMjA0OSwsMTEuMjMsNy41OSw1LjE0LDMuOTksNC4yCjIwNTAsLDExLjM3LDcuNDgsNC45OSwzLjg2LDQuMDMK');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F4.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,eWVhcixPYnNlcnZlZCxDdXJyZW50IGZvcmVjYXN0ICsgaGlzdG9yaWNhbCBncm93dGgsMiUgZ3Jvd3RoLDIlIGdyb3d0aCArIEdpbmkgcmVkdWN0aW9uIDElLDIlIGdyb3d0aCArIEdpbmkgcmVkdWN0aW9uIDIlLDQlIGdyb3d0aAoyMDEwLDIwLjk4LCwsLCwKMjAxMSwxOS4xLCwsLCwKMjAxMiwxNy44MywsLCwsCjIwMTMsMTUuNSwsLCwsCjIwMTQsMTQuNTEsLCwsLAoyMDE1LDEzLjQyLCwsLCwKMjAxNiwxMi41NywsLCwsCjIwMTcsMTEuNzksLCwsLAoyMDE4LDExLjEyLCwsLCwKMjAxOSwxMC43NiwsLCwsCjIwMjAsMTEuNDEsLCwsLAoyMDIxLDExLjMzLCwsLCwKMjAyMiwxMC44OSwsLCwsCjIwMjMsMTAuNjIsLCwsLAoyMDI0LDEwLjQsLCwsLAoyMDI1LDEwLjIsLCwsLAoyMDI2LDkuOTgsOS45OCw5Ljk4LDkuOTgsOS45OCw5Ljk4CjIwMjcsLDkuNTksOS43LDkuNTQsOS4zOSw5LjQ4CjIwMjgsLDkuNDMsOS42MSw5LjMxLDkuMDQsOS4xOAoyMDI5LCw5LjI5LDkuNTIsOS4wOSw4LjY3LDguODgKMjAzMCwsOS4xNSw5LjQ0LDguODcsOC4zMSw4LjU2CjIwMzEsLDkuMDMsOS4zNCw4LjYsNy45Nyw4LjI3CjIwMzIsLDkuMTQsOS4yNSw4LjM3LDcuNjUsNy45OQoyMDMzLCw5LjIzLDkuMTUsOC4xNiw3LjM0LDcuNzEKMjAzNCwsOS4zNSw5LjA0LDcuOTQsNy4wNSw3LjQ1CjIwMzUsLDkuNDYsOC45NSw3LjcyLDYuNzQsNy4xOQoyMDM2LCw5LjU2LDguODUsNy41Myw2LjQ1LDYuOTMKMjAzNywsOS42OSw4Ljc2LDcuMzEsNi4yMSw2LjcKMjAzOCwsOS44Miw4LjY2LDcuMDgsNS45NCw2LjQzCjIwMzksLDkuOTUsOC41Nyw2Ljg4LDUuNzIsNi4yCjIwNDAsLDEwLjA4LDguNDUsNi42OSw1LjQ5LDUuOTkKMjA0MSwsMTAuMjIsOC4zNyw2LjQ4LDUuMjksNS43NwoyMDQyLCwxMC4zNSw4LjI4LDYuMyw1LjExLDUuNTYKMjA0MywsMTAuNDcsOC4xOCw2LjEyLDQuOTQsNS4zNwoyMDQ0LCwxMC41OCw4LjA3LDUuOTQsNC43Niw1LjE1CjIwNDUsLDEwLjcxLDcuOTcsNS43Nyw0LjU4LDQuOTUKMjA0NiwsMTAuODQsNy44Nyw1LjU5LDQuNDMsNC43NgoyMDQ3LCwxMC45OSw3Ljc4LDUuNDMsNC4yNyw0LjU1CjIwNDgsLDExLjExLDcuNjksNS4yOSw0LjExLDQuMzgKMjA0OSwsMTEuMjMsNy41OSw1LjE0LDMuOTksNC4yCjIwNTAsLDExLjM3LDcuNDgsNC45OSwzLjg2LDQuMDMK" download="chartbook_F4.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: Poverty rates are reported for the $3.00 per person per day poverty line (expressed in 2021 PPP dollars). Poverty is projected after 2024 based on per capita GDP growth projections in the June 2026 Global Economic Prospects complemented by the April 2026 Macro Poverty Outlook and the World Economic Outlook. Projections after 2030 are based on average annual historical per capita GDP growth rates from 2024-2025. The black horizontal line indicates the World Bank Group’s target for 3% extreme poverty by 2030.</p>

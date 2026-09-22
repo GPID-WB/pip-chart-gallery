@@ -13,23 +13,25 @@ categories:
 ```{r}
 #| echo: false
 #| warning: false
-library("downloadthis")
-csv_file <- file.path(tempdir(), "chartbook_F13.csv")
+#| results: asis
+csv_name <- "chartbook_F13.csv"
+csv_tmp  <- file.path(tempdir(), csv_name)
 download.file(
   "https://raw.githubusercontent.com/GPID-WB/pip-chartbook/refs/heads/main/csv/chartbook_F13.csv",
-  destfile = csv_file,
+  destfile = csv_tmp,
   mode = "wb",
   quiet = TRUE
 )
-download_file(
-  path = csv_file,
-  output_name = "chartbook_F13",
-  button_label = "Download data as csv",
-  button_type = "primary",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = TRUE
-)
+# Plain <a download> holding the CSV as a data: URI.
+# downloadthis::download_file() is deliberately NOT used here: the handler it
+# generates calls fetch() on the data: URI, and PositConnect serves a
+# Content-Security-Policy whose connect-src has no data:, so the fetch was
+# blocked and the button failed with "Download failed. Please try again."
+# An anchor download is not governed by any CSP directive.
+cat(sprintf(
+  '<div class="cell-output-display"><a class="btn btn-primary" href="data:text/csv;base64,%s" download="%s"><i class="bi bi-download"></i> Download data as csv</a></div>',
+  xfun::base64_encode(csv_tmp), csv_name
+))
 ```
 
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">

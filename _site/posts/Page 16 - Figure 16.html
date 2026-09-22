@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -160,35 +156,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25517179/thumbnail" alt="chart visualization" width="100%">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,WWVhcixOb24tRkNTIGluIFNTQSxGQ1MgaW4gU1NBLEZDUyBvdXRzaWRlIFNTQSxSZXN0IG9mIHRoZSB3b3JsZAoyMDAwLDExLjIsNy44LDQuMyw3Ni42CjIwMDEsMTAuOSw4LjYsNC41LDc2CjIwMDIsMTEuNCw5LjEsNC42LDc0LjgKMjAwMywxMS43LDkuOCw0LjcsNzMuOAoyMDA0LDEyLjMsOS43LDQuNyw3My4zCjIwMDUsMTIuOCwxMC40LDQuNyw3Mi4xCjIwMDYsMTcuMyw2LjksNC43LDcxLjEKMjAwNywxNy45LDcuNyw0LjgsNjkuNQoyMDA4LDE4LjYsOC4xLDMuNyw2OS42CjIwMDksMTkuOSw4LjIsMy4zLDY4LjYKMjAxMCwyMS4yLDguOSwzLjMsNjYuNgoyMDExLDIyLjgsMTAuMSwzLjUsNjMuNgoyMDEyLDIyLDEyLjksMy42LDYxLjYKMjAxMywyNi4zLDEzLjUsMy44LDU2LjQKMjAxNCwyNy44LDE0LjYsNC4xLDUzLjUKMjAxNSwzMC41LDE2LjEsNS4yLDQ4LjIKMjAxNiwzMi41LDE3LjcsNS43LDQ0LjEKMjAxNywzNS4xLDE4LjYsNS44LDQwLjQKMjAxOCwyOS41LDI3LjgsNi4zLDM2LjQKMjAxOSwyNy43LDMyLjEsNi42LDMzLjcKMjAyMCwyMi44LDM3LjMsNywzMwoyMDIxLDIyLjksMzguOSw3LjgsMzAuNAoyMDIyLDIzLjcsNDAuOSw4LDI3LjQKMjAyMywyNC40LDQzLjYsOC42LDIzLjQKMjAyNCwyNSw0NS41LDkuMiwyMC4zCjIwMjUsMjkuMiw0Mi4zLDkuNiwxOC45CjIwMjYsMjkuNSw0Mi45LDkuOSwxNy43CjIwMjcsMjkuNyw0My42LDEwLjIsMTYuNQoyMDI4LDI5LjksNDQuMiwxMC40LDE1LjYKMjAyOSwzMC4xLDQ0LjQsMTAuOSwxNC43CjIwMzAsMzAuMyw0NC43LDExLjQsMTMuNgo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F16.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,WWVhcixOb24tRkNTIGluIFNTQSxGQ1MgaW4gU1NBLEZDUyBvdXRzaWRlIFNTQSxSZXN0IG9mIHRoZSB3b3JsZAoyMDAwLDExLjIsNy44LDQuMyw3Ni42CjIwMDEsMTAuOSw4LjYsNC41LDc2CjIwMDIsMTEuNCw5LjEsNC42LDc0LjgKMjAwMywxMS43LDkuOCw0LjcsNzMuOAoyMDA0LDEyLjMsOS43LDQuNyw3My4zCjIwMDUsMTIuOCwxMC40LDQuNyw3Mi4xCjIwMDYsMTcuMyw2LjksNC43LDcxLjEKMjAwNywxNy45LDcuNyw0LjgsNjkuNQoyMDA4LDE4LjYsOC4xLDMuNyw2OS42CjIwMDksMTkuOSw4LjIsMy4zLDY4LjYKMjAxMCwyMS4yLDguOSwzLjMsNjYuNgoyMDExLDIyLjgsMTAuMSwzLjUsNjMuNgoyMDEyLDIyLDEyLjksMy42LDYxLjYKMjAxMywyNi4zLDEzLjUsMy44LDU2LjQKMjAxNCwyNy44LDE0LjYsNC4xLDUzLjUKMjAxNSwzMC41LDE2LjEsNS4yLDQ4LjIKMjAxNiwzMi41LDE3LjcsNS43LDQ0LjEKMjAxNywzNS4xLDE4LjYsNS44LDQwLjQKMjAxOCwyOS41LDI3LjgsNi4zLDM2LjQKMjAxOSwyNy43LDMyLjEsNi42LDMzLjcKMjAyMCwyMi44LDM3LjMsNywzMwoyMDIxLDIyLjksMzguOSw3LjgsMzAuNAoyMDIyLDIzLjcsNDAuOSw4LDI3LjQKMjAyMywyNC40LDQzLjYsOC42LDIzLjQKMjAyNCwyNSw0NS41LDkuMiwyMC4zCjIwMjUsMjkuMiw0Mi4zLDkuNiwxOC45CjIwMjYsMjkuNSw0Mi45LDkuOSwxNy43CjIwMjcsMjkuNyw0My42LDEwLjIsMTYuNQoyMDI4LDI5LjksNDQuMiwxMC40LDE1LjYKMjAyOSwzMC4xLDQ0LjQsMTAuOSwxNC43CjIwMzAsMzAuMyw0NC43LDExLjQsMTMuNgo=" download="chartbook_F16.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: Note: FCS = fragile and conflict-affected situations, SSA = Sub-Saharan Africa. The extreme poverty rate is calculated at $3.00 per person per day (expressed in 2021 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragility and conflict-affected situations using classifications from each year until data year 2024 (FY 2026); the classification is kept fixed after. Poverty is projected after 2024 based on per capita GDP growth projections in the June 2026 Global Economic Prospects complemented by the April 2026 Macro Poverty Outlook and the World Economic Outlook. Population coverage is below 50 percent for countries in FCS in 2000 and 2019.</p>

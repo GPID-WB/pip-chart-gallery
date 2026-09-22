@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -161,35 +157,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25383815/thumbnail" alt="chart visualization" width="100%">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,eWVhcixHbG9iYWwgUHJvc3Blcml0eSBHYXAgZ3Jvd3RoIHJhdGUsQ29udHJpYnV0aW9uIG9mIHdpdGhpbi1jb3VudHJ5IGluZXF1YWxpdHksQ29udHJpYnV0aW9uIG9mIGJldHdlZW4tY291bnRyeSBpbmVxdWFsaXR5LENvbnRyaWJ1dGlvbiBvZiBtZWFuIGdyb3d0aAoxOTkw4oCTMjAwMCwtMS40NiwwLjYsLTEuMjMsLTAuODMKMjAwMOKAkzIwMTAsLTMuNjYsLTAuMDgsLTEuODIsLTEuNzYKMjAxMOKAkzIwMTksLTIuOTIsLTAuMzEsLTAuNiwtMi4wMQoyMDE54oCTMjAyNiwtMS4xLC0wLjIyLDAuNzIsLTEuNgo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F10.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,eWVhcixHbG9iYWwgUHJvc3Blcml0eSBHYXAgZ3Jvd3RoIHJhdGUsQ29udHJpYnV0aW9uIG9mIHdpdGhpbi1jb3VudHJ5IGluZXF1YWxpdHksQ29udHJpYnV0aW9uIG9mIGJldHdlZW4tY291bnRyeSBpbmVxdWFsaXR5LENvbnRyaWJ1dGlvbiBvZiBtZWFuIGdyb3d0aAoxOTkw4oCTMjAwMCwtMS40NiwwLjYsLTEuMjMsLTAuODMKMjAwMOKAkzIwMTAsLTMuNjYsLTAuMDgsLTEuODIsLTEuNzYKMjAxMOKAkzIwMTksLTIuOTIsLTAuMzEsLTAuNiwtMi4wMQoyMDE54oCTMjAyNiwtMS4xLC0wLjIyLDAuNzIsLTEuNgo=" download="chartbook_F10.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: A decrease in the Prosperity Gap is an improvement in welfare. Growth is calculated as the log difference. Change in the Prosperity Gap is the sum of the (negative) growth in the mean income and the decline in total inequality. Positive growth in the mean decreases (improves) the Prosperity Gap; thus, in the figure, the contribution of the mean growth is shown as the negative of mean growth. That is, for all the periods in the graph, there was positive growth in the global mean, which is displayed as a negative contribution. Inequality is measured using the inequality measure related to the Prosperity Gap. Change in total inequality is the sum of changes in between country and within-country inequality. See <a href="https://openknowledge.worldbank.org/entities/publication/66f2dcfb-ce37-47fe-a99b-3a70e7b9dd60">Kraay et al (2023)</a> for more details.</p>

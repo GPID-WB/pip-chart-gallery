@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -159,35 +155,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25382993/thumbnail" alt="chart visualization" width="100%">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,eWVhcixHbG9iYWwgUHJvc3Blcml0eSBHYXAsR2xvYmFsIFByb3NwZXJpdHkgR2FwIChmb3JlY2FzdCkKMTk5MCwxMC40NiwKMTk5MSwxMC40MSwKMTk5MiwxMC4zMywKMTk5MywxMC4yMywKMTk5NCw5Ljg4LAoxOTk1LDkuNTgsCjE5OTYsOS4zNSwKMTk5Nyw5LjMsCjE5OTgsOS40LAoxOTk5LDkuMjUsCjIwMDAsOS4wNiwKMjAwMSw4LjgzLAoyMDAyLDguNDksCjIwMDMsOC4xOSwKMjAwNCw3LjgzLAoyMDA1LDcuNTEsCjIwMDYsNy4yNywKMjAwNyw2Ljk0LAoyMDA4LDYuNzMsCjIwMDksNi41OSwKMjAxMCw2LjI4LAoyMDExLDYuMDIsCjIwMTIsNS44LAoyMDEzLDUuNDYsCjIwMTQsNS4zNCwKMjAxNSw1LjIsCjIwMTYsNS4xLAoyMDE3LDUsCjIwMTgsNC44OSwKMjAxOSw0LjgzLAoyMDIwLDQuOTUsCjIwMjEsNC44NiwKMjAyMiw0LjgsCjIwMjMsNC42OCwKMjAyNCw0LjYsNC42CjIwMjUsLDQuNTMKMjAyNiwsNC40Nwo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F8.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,eWVhcixHbG9iYWwgUHJvc3Blcml0eSBHYXAsR2xvYmFsIFByb3NwZXJpdHkgR2FwIChmb3JlY2FzdCkKMTk5MCwxMC40NiwKMTk5MSwxMC40MSwKMTk5MiwxMC4zMywKMTk5MywxMC4yMywKMTk5NCw5Ljg4LAoxOTk1LDkuNTgsCjE5OTYsOS4zNSwKMTk5Nyw5LjMsCjE5OTgsOS40LAoxOTk5LDkuMjUsCjIwMDAsOS4wNiwKMjAwMSw4LjgzLAoyMDAyLDguNDksCjIwMDMsOC4xOSwKMjAwNCw3LjgzLAoyMDA1LDcuNTEsCjIwMDYsNy4yNywKMjAwNyw2Ljk0LAoyMDA4LDYuNzMsCjIwMDksNi41OSwKMjAxMCw2LjI4LAoyMDExLDYuMDIsCjIwMTIsNS44LAoyMDEzLDUuNDYsCjIwMTQsNS4zNCwKMjAxNSw1LjIsCjIwMTYsNS4xLAoyMDE3LDUsCjIwMTgsNC44OSwKMjAxOSw0LjgzLAoyMDIwLDQuOTUsCjIwMjEsNC44NiwKMjAyMiw0LjgsCjIwMjMsNC42OCwKMjAyNCw0LjYsNC42CjIwMjUsLDQuNTMKMjAyNiwsNC40Nwo=" download="chartbook_F8.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: The Global Prosperity Gap captures the average shortfall from a prosperity standard of $28/day (expressed in 2021 PPP dollars). The estimates after 2024 are nowcasts. See <a href="https://openknowledge.worldbank.org/entities/publication/66f2dcfb-ce37-47fe-a99b-3a70e7b9dd60">Kraay et al (2023)</a> for more details.</p>

@@ -71,10 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet">
-
-<link href="../site_libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet">
-
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -159,35 +155,8 @@ ul.task-list li input[type="checkbox"] {
 <img src="https://public.flourish.studio/visualisation/25403793/thumbnail" width="100%" alt="chart visualization">
 </noscript>
 </div>
-<div class="cell">
 <div class="cell-output-display">
-<button class="btn btn-primary" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/csv;base64,R3JvdXAsTG93IGluZXF1YWxpdHksTW9kZXJhdGUgaW5lcXVhbGl0eSxIaWdoIGluZXF1YWxpdHkKTG93LWluY29tZSwxMC4yNiw2My45MiwyNS44MQpMb3dlci1taWRkbGUtaW5jb21lLDE5Ljk5LDQ1Ljc1LDM0LjI2ClVwcGVyLW1pZGRsZS1pbmNvbWUsMTYuMjQsNDcuNDcsMzYuMjkKSGlnaC1pbmNvbWUsMzIuMDMsNjEuNDUsNi41Mgo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'chartbook_F12.csv';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Download data as csv</button>
-</div>
+<a class="btn btn-primary" href="data:text/csv;base64,R3JvdXAsTG93IGluZXF1YWxpdHksTW9kZXJhdGUgaW5lcXVhbGl0eSxIaWdoIGluZXF1YWxpdHkKTG93LWluY29tZSwxMC4yNiw2My45MiwyNS44MQpMb3dlci1taWRkbGUtaW5jb21lLDE5Ljk5LDQ1Ljc1LDM0LjI2ClVwcGVyLW1pZGRsZS1pbmNvbWUsMTYuMjQsNDcuNDcsMzYuMjkKSGlnaC1pbmNvbWUsMzIuMDMsNjEuNDUsNi41Mgo=" download="chartbook_F12.csv"><i class="bi bi-download"></i> Download data as csv</a>
 </div>
 <p style="font-size: 0.5em; color: #555; margin-top: 0.5em;">
 </p><p>Note: High-inequality economies have a Gini index above 40, moderate inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover all economies with at least one household survey in the Poverty and Inequality Platform after 2000. The Gini index is used from the latest survey year. Income group is based on the World Bank fiscal year 2027 list.The label values may not add to 100 percent due to rounding.</p>
